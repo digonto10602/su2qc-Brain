@@ -1,0 +1,128 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#package",
+      "color": {
+        "a": 1,
+        "rgb": 15227148
+      }
+    },
+    {
+      "query": "tag:#result",
+      "color": {
+        "a": 1,
+        "rgb": 12723548
+      }
+    },
+    {
+      "query": "tag:#gate",
+      "color": {
+        "a": 1,
+        "rgb": 8818326
+      }
+    },
+    {
+      "query": "path:Modules/skqd",
+      "color": {
+        "a": 1,
+        "rgb": 1867478
+      }
+    },
+    {
+      "query": "path:Modules/jepa",
+      "color": {
+        "a": 1,
+        "rgb": 3120708
+      }
+    },
+    {
+      "query": "path:Modules/genesis",
+      "color": {
+        "a": 1,
+        "rgb": 15764480
+      }
+    },
+    {
+      "query": "path:Modules/su2zx",
+      "color": {
+        "a": 1,
+        "rgb": 16565273
+      }
+    },
+    {
+      "query": "path:Modules/trotter",
+      "color": {
+        "a": 1,
+        "rgb": 15092096
+      }
+    },
+    {
+      "query": "path:Modules/qca",
+      "color": {
+        "a": 1,
+        "rgb": 6061306
+      }
+    },
+    {
+      "query": "tag:#hardware",
+      "color": {
+        "a": 1,
+        "rgb": 7358696
+      }
+    },
+    {
+      "query": "tag:#paper",
+      "color": {
+        "a": 1,
+        "rgb": 4804695
+      }
+    },
+    {
+      "query": "path:Concepts/Physics",
+      "color": {
+        "a": 1,
+        "rgb": 829048
+      }
+    },
+    {
+      "query": "path:Concepts/Methods",
+      "color": {
+        "a": 1,
+        "rgb": 1087661
+      }
+    },
+    {
+      "query": "tag:#workflow OR tag:#tool OR tag:#decision",
+      "color": {
+        "a": 1,
+        "rgb": 11419337
+      }
+    },
+    {
+      "query": "tag:#hub OR tag:#cross-package",
+      "color": {
+        "a": 1,
+        "rgb": 15744574
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.6,
+  "nodeSizeMultiplier": 1.1,
+  "lineSizeMultiplier": 0.8,
+  "collapse-forces": false,
+  "centerStrength": 0.45,
+  "repelStrength": 12,
+  "linkStrength": 0.9,
+  "linkDistance": 180,
+  "scale": 0.2222222222222222,
+  "close": false
+}

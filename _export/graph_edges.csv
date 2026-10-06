@@ -1,0 +1,2281 @@
+source,target
+00 SU2QC Map,Cross-package opportunities
+00 SU2QC Map,Gates index
+00 SU2QC Map,Genesis Phase-I proposal
+00 SU2QC Map,Hardware index
+00 SU2QC Map,How to use this vault
+00 SU2QC Map,Lessons that travelled
+00 SU2QC Map,Methods index
+00 SU2QC Map,Modules index
+00 SU2QC Map,Package lineage
+00 SU2QC Map,Papers index
+00 SU2QC Map,Physics concepts index
+00 SU2QC Map,Results index
+00 SU2QC Map,SU(2) lattice gauge theory
+00 SU2QC Map,SU2ZX
+00 SU2QC Map,Shared 2x2 plaquette
+00 SU2QC Map,Workflow index
+00 SU2QC Map,genesis-su2-lgt
+00 SU2QC Map,su2qc-jepa
+00 SU2QC Map,su2qc-paulo-code
+00 SU2QC Map,su2qc-qcadvantage
+00 SU2QC Map,su2qc-skqd
+00 SU2QC Map,su2qc-trotter
+CIPSI and classical support controls,skqd.controls
+CIPSI and classical support controls,skqd.ml
+Clean-shot fraction,Result - CF_traj clean-fraction re-ruling
+Clean-shot fraction,skqd.device_req
+Clean-shot fraction,skqd.idle
+Clifford+T and T-count,Result - lean 22-qubit plaquette Trotter step
+Clifford+T and T-count,su2qc-trotter
+Codewords and the Gauss-law decoder,Gauss's law
+Codewords and the Gauss-law decoder,skqd.codec
+Decoherence (T1 and T2),skqd.coherence
+Decoherence (T1 and T2),skqd.idle
+Dynamical decoupling,Result - client-side XY4 gain did not replicate
+Dynamical decoupling,su2qc-skqd
+Exact diagonalization,genesis_su2.exact
+Exact diagonalization,skqd.exact
+Exact diagonalization,su2qc_jepa.physics.dynamics
+JEPA world model,SIGReg
+JEPA world model,su2qc-jepa
+JEPA world model,su2qc_jepa.models.jepa
+JEPA world model,su2qc_jepa.models.train
+Krylov subspace and Lanczos,Krylov-chain carrier
+Krylov subspace and Lanczos,skqd.krylov
+Krylov subspace and Lanczos,su2qc-jepa
+Krylov subspace and Lanczos,su2qc-skqd
+Krylov subspace and Lanczos,su2qc_jepa.physics.dynamics
+Krylov-chain carrier,Krylov subspace and Lanczos
+Krylov-chain carrier,su2qc-jepa
+Krylov-chain carrier,su2qc_jepa.physics.chain
+Krylov-chain carrier,su2qc_jepa.twin.layout
+L12 encoding,Krylov-chain carrier
+L12 encoding,SU2ZX
+L12 encoding,Shared 2x2 plaquette
+L12 encoding,su2qc.circuits.strang_l12
+L12 encoding,su2qc.encodings.l12
+Leakage-safe data splits,jepa gate J0
+Leakage-safe data splits,skqd.ml
+Loschmidt echo,su2qc-qcadvantage
+Loschmidt echo,su2qc-trotter
+Noise models and digital twin,skqd.noise
+Noise models and digital twin,su2qc_jepa.twin.noise
+Noise models and digital twin,su2qc_jepa.twin.run
+Quantum kernel methods,Result - genesis QML surrogate is a negative result
+Quantum kernel methods,genesis-su2-lgt
+Readout error and confusion matrix,skqd.hardware
+Ritz values and certified bounds,skqd.skqd
+SIGReg,su2qc-jepa
+Sample-based Krylov quantum diagonalization (SKQD),Result - 2x2 SKQD run on ibm_kingston
+Sample-based Krylov quantum diagonalization (SKQD),Ritz values and certified bounds
+Sample-based Krylov quantum diagonalization (SKQD),Robledo-Moreno et al. 2024
+Sample-based Krylov quantum diagonalization (SKQD),Yu et al. 2025 SKQD
+Sample-based Krylov quantum diagonalization (SKQD),skqd.controls
+Sample-based Krylov quantum diagonalization (SKQD),skqd.krylov
+Sample-based Krylov quantum diagonalization (SKQD),skqd.skqd
+Sample-based Krylov quantum diagonalization (SKQD),su2qc-skqd
+Sample-based Krylov quantum diagonalization (SKQD),van Rossum et al. 2026
+Tensor networks (MPS and TEBD),Exact diagonalization
+Tensor networks (MPS and TEBD),Result - qcadvantage MPS frontier at N=48
+Tensor networks (MPS and TEBD),SU2ZX
+Tensor networks (MPS and TEBD),genesis-su2-lgt
+Tensor networks (MPS and TEBD),su2qc-qcadvantage
+Tensor networks (MPS and TEBD),su2torus.mps
+Trotter and Strang splitting,genesis-su2-lgt
+ZX-calculus circuit optimization,SU2ZX
+Zero-noise extrapolation,Result - qcadvantage noise mitigation at N=12
+Zero-noise extrapolation,su2qc-qcadvantage
+Zero-noise extrapolation,su2torus.noise
+Baryon-number sectors,Shared 2x2 plaquette
+Clebsch-Gordan coefficients,Intertwiner (dressed-site) basis
+Clebsch-Gordan coefficients,skqd.su2
+Clebsch-Gordan coefficients,su2qc_jepa.physics.su2
+Electric basis,genesis-su2-lgt
+Electric basis,genesis_su2.encodings
+Fuzzy gauge theory,Alexandru et al. 2023 fuzzy
+Fuzzy gauge theory,genesis-su2-lgt
+Gauss's law,Codewords and the Gauss-law decoder
+Intertwiner (dressed-site) basis,Clebsch-Gordan coefficients
+Intertwiner (dressed-site) basis,Gauss's law
+Intertwiner (dressed-site) basis,skqd.basis
+Intertwiner (dressed-site) basis,skqd.vertex
+Intertwiner (dressed-site) basis,su2qc-skqd
+Jordan-Wigner mapping,su2qc_jepa.physics.conventions
+Kogut-Susskind Hamiltonian,Kogut and Susskind 1975
+Kogut-Susskind Hamiltonian,Plaquette and Wilson loop
+Kogut-Susskind Hamiltonian,Staggered fermions
+Kogut-Susskind Hamiltonian,skqd.hamiltonian
+Kogut-Susskind Hamiltonian,su2qc-jepa
+Kogut-Susskind Hamiltonian,su2qc-skqd
+Kogut-Susskind Hamiltonian,su2qc_jepa.physics.plaquette
+Link truncation (j_max),Shared 2x2 plaquette
+One-qubit-per-plaquette SU(2) model,Ciavarella et al. 2026
+One-qubit-per-plaquette SU(2) model,Gauss's law
+One-qubit-per-plaquette SU(2) model,su2qc-qcadvantage
+One-qubit-per-plaquette SU(2) model,su2torus.hamiltonian
+One-qubit-per-plaquette SU(2) model,su2torus.lattice
+Pauli decomposition,genesis-su2-lgt
+Pauli decomposition,genesis_su2.pauli
+Plaquette and Wilson loop,Kogut-Susskind Hamiltonian
+Plaquette and Wilson loop,su2qc-skqd
+Quantum link (rishon) encoding,Chandrasekharan and Wiese 1997
+Quantum link (rishon) encoding,genesis_su2.encodings
+SU(2) lattice gauge theory,Kogut-Susskind Hamiltonian
+SU(2) lattice gauge theory,genesis-su2-lgt
+SU(2) lattice gauge theory,su2qc-jepa
+SU(2) lattice gauge theory,su2qc-skqd
+Staggered fermions,Jordan-Wigner mapping
+Staggered fermions,genesis-su2-lgt
+Staggered fermions,skqd.fermions
+Staggered fermions,su2qc-jepa
+Staggered fermions,su2qc-skqd
+String breaking,su2qc-jepa
+Thermalization and canonical typicality,Result - qcadvantage thermalization and the beta=0 states
+Thermalization and canonical typicality,su2qc-qcadvantage
+Thermalization and canonical typicality,su2torus.thermal
+Cross-package opportunities,Dynamical decoupling
+Cross-package opportunities,Krylov-chain carrier
+Cross-package opportunities,L12 encoding
+Cross-package opportunities,Result - 2x3 needs a different device
+Cross-package opportunities,Result - GI-cost campaign stalled at C0
+Cross-package opportunities,Result - client-side XY4 gain did not replicate
+Cross-package opportunities,Result - lean 22-qubit plaquette Trotter step
+Cross-package opportunities,Shared 2x2 plaquette
+Cross-package opportunities,jepa gate J3
+Cross-package opportunities,skqd.idle
+Cross-package opportunities,su2qc-qcadvantage
+Cross-package opportunities,su2qc_jepa.hardware.ibm
+Cross-package opportunities,su2qc_jepa.twin.noise
+Lessons that travelled,Cross-package opportunities
+Lessons that travelled,Decision - jepa 001 numbered artifacts and Graphify
+Lessons that travelled,Graphify code graph
+Lessons that travelled,SU2ZX
+Lessons that travelled,genesis-su2-lgt
+Lessons that travelled,jepa gate J0
+Lessons that travelled,jepa gate J3
+Lessons that travelled,skqd.circuits_ir
+Lessons that travelled,su2qc-jepa
+Lessons that travelled,su2qc-skqd
+Lessons that travelled,su2qc_jepa.twin.run
+Package lineage,Ciavarella et al. 2026
+Package lineage,Graphify code graph
+Package lineage,SU2ZX
+Package lineage,genesis-su2-lgt
+Package lineage,su2qc-jepa
+Package lineage,su2qc-paulo-code
+Package lineage,su2qc-qcadvantage
+Package lineage,su2qc-skqd
+Package lineage,su2qc-trotter
+Shared 2x2 plaquette,Baryon-number sectors
+Shared 2x2 plaquette,Codewords and the Gauss-law decoder
+Shared 2x2 plaquette,Cross-package opportunities
+Shared 2x2 plaquette,Gauss's law
+Shared 2x2 plaquette,JEPA world model
+Shared 2x2 plaquette,Krylov-chain carrier
+Shared 2x2 plaquette,L12 encoding
+Shared 2x2 plaquette,Link truncation (j_max)
+Shared 2x2 plaquette,SU(2) lattice gauge theory
+Shared 2x2 plaquette,SU2ZX
+Shared 2x2 plaquette,Sample-based Krylov quantum diagonalization (SKQD)
+Shared 2x2 plaquette,Staggered fermions
+Shared 2x2 plaquette,String breaking
+Shared 2x2 plaquette,skqd.fullspace
+Shared 2x2 plaquette,skqd.hamiltonian
+Shared 2x2 plaquette,su2qc-jepa
+Shared 2x2 plaquette,su2qc-skqd
+Shared 2x2 plaquette,su2qc.ham.route_gausskernel
+Shared 2x2 plaquette,su2qc.ham.route_spinnet
+Shared 2x2 plaquette,su2qc_jepa.physics.plaquette
+Decision - jepa 000 frozen conventions,su2qc-jepa
+Decision - jepa 000 frozen conventions,su2qc_jepa.physics.conventions
+Decision - jepa 001 numbered artifacts and Graphify,Graphify code graph
+Decision - jepa 001 numbered artifacts and Graphify,Numbered artifacts
+Decision - jepa 001 numbered artifacts and Graphify,su2qc-jepa
+Decision - jepa 004 laptop and Perlmutter only,Laptop admission-controlled runner
+Decision - jepa 004 laptop and Perlmutter only,Perlmutter job queue
+Decision - jepa 004 laptop and Perlmutter only,su2qc-jepa
+Decision - jepa 005 J1 energy threshold,Result - J1 energy information ceiling
+Decision - jepa 005 J1 energy threshold,su2qc-jepa
+Decision - qcadvantage open questions before the cluster,Result - qcadvantage thermalization and the beta=0 states
+Decision - qcadvantage open questions before the cluster,su2qc-qcadvantage
+genesis gate G0,Gate-and-evidence discipline
+genesis gate G0,genesis-su2-lgt
+genesis gate G1,Gate-and-evidence discipline
+genesis gate G1,SU(2) lattice gauge theory
+genesis gate G1,genesis-su2-lgt
+genesis gate G1,genesis_su2.exact
+genesis gate G1,genesis_su2.pauli
+genesis gate G1,genesis_su2.su2
+genesis gate G2,Gate-and-evidence discipline
+genesis gate G2,Plaquette and Wilson loop
+genesis gate G2,genesis-su2-lgt
+genesis gate G2,genesis_su2.exact
+genesis gate G2,genesis_su2.pauli
+genesis gate G2,genesis_su2.su2
+genesis gate G3,Gate-and-evidence discipline
+genesis gate G3,Qiskit
+genesis gate G3,Trotter and Strang splitting
+genesis gate G3,genesis-su2-lgt
+genesis gate G3,genesis_su2.backends.qiskit_backend
+genesis gate G3,genesis_su2.exact
+genesis gate G4,CUDA-Q
+genesis gate G4,Gate-and-evidence discipline
+genesis gate G4,genesis-su2-lgt
+genesis gate G5,Gate-and-evidence discipline
+genesis gate G5,genesis-su2-lgt
+genesis gate G6.1,Gate-and-evidence discipline
+genesis gate G6.1,Quantum kernel methods
+genesis gate G6.1,genesis-su2-lgt
+genesis gate G6.1,genesis_su2.qml.energy_surrogate
+genesis gate G7.1,Gate-and-evidence discipline
+genesis gate G7.1,genesis-su2-lgt
+genesis gate G7.1,genesis_su2.exact
+genesis gate G7.1,genesis_su2.pauli
+genesis gate G7.2-G7.4,Gate-and-evidence discipline
+genesis gate G7.2-G7.4,Gauss's law
+genesis gate G7.2-G7.4,genesis-su2-lgt
+genesis gate G7.2-G7.4,genesis_su2.encodings
+genesis gate G7.5-G7.6,Gate-and-evidence discipline
+genesis gate G7.5-G7.6,genesis-su2-lgt
+genesis gate G7.7,Gate-and-evidence discipline
+genesis gate G7.7,genesis-su2-lgt
+genesis gate G7.8,Gate-and-evidence discipline
+genesis gate G7.8,genesis-su2-lgt
+jepa gate J0,Gate-and-evidence discipline
+jepa gate J0,su2qc-jepa
+jepa gate J0,su2qc_jepa.gates.j0_data
+jepa gate J1,Gate-and-evidence discipline
+jepa gate J1,su2qc-jepa
+jepa gate J1,su2qc_jepa.gates.j1_training
+jepa gate J2,Gate-and-evidence discipline
+jepa gate J2,su2qc-jepa
+jepa gate J2,su2qc_jepa.gates.j2_forecast
+jepa gate J3,Gate-and-evidence discipline
+jepa gate J3,su2qc-jepa
+jepa gate J3,su2qc_jepa.gates.j3_hardware
+jepa gate J4,Gate-and-evidence discipline
+jepa gate J4,su2qc-jepa
+qca gate M1,Gate-and-evidence discipline
+qca gate M1,su2qc-qcadvantage
+qca gate M1,su2torus.hamiltonian
+qca gate M1,su2torus.lattice
+qca gate M2,Gate-and-evidence discipline
+qca gate M2,Transpilation and CZ count
+qca gate M2,Trotter and Strang splitting
+qca gate M2,su2qc-qcadvantage
+qca gate M2,su2torus.exact
+qca gate M2,su2torus.hamiltonian
+qca gate M2,su2torus.lattice
+qca gate M2,su2torus.trotter
+qca gate M3,Gate-and-evidence discipline
+qca gate M3,su2qc-qcadvantage
+qca gate M3,su2torus.hamiltonian
+qca gate M3,su2torus.lattice
+qca gate M3,su2torus.observables
+qca gate M3,su2torus.thermal
+qca gate M4,"Agent routing (planner, executor, reviewer, runner, scribe)"
+qca gate M4,Gate-and-evidence discipline
+qca gate M4,Noise models and digital twin
+qca gate M4,Zero-noise extrapolation
+qca gate M4,su2qc-qcadvantage
+qca gate M4,su2torus.lattice
+qca gate M4,su2torus.noise
+qca gate M4,su2torus.trotter
+qca gate M5,"Agent routing (planner, executor, reviewer, runner, scribe)"
+qca gate M5,Gate-and-evidence discipline
+qca gate M5,Perlmutter job queue
+qca gate M5,Tensor networks (MPS and TEBD)
+qca gate M5,su2qc-qcadvantage
+qca gate M5,su2torus.lattice
+qca gate M5,su2torus.mps
+qca gate M5,su2torus.trotter
+qca gate M6,"Agent routing (planner, executor, reviewer, runner, scribe)"
+qca gate M6,Gate-and-evidence discipline
+qca gate M6,su2qc-qcadvantage
+skqd gate CF_estimator_2x2_info,Gate-and-evidence discipline
+skqd gate CF_estimator_2x2_info,su2qc-skqd
+skqd gate CF_traj,Gate-and-evidence discipline
+skqd gate CF_traj,Noise models and digital twin
+skqd gate CF_traj,Quantinuum H-series
+skqd gate CF_traj,skqd.circuits_qiskit
+skqd gate CF_traj,skqd.quantinuum_native
+skqd gate CF_traj,skqd.reference_sim
+skqd gate CF_traj,skqd.report
+skqd gate CF_traj,skqd.skqd
+skqd gate CF_traj,su2qc-skqd
+skqd gate CS,Codewords and the Gauss-law decoder
+skqd gate CS,Gate-and-evidence discipline
+skqd gate CS,su2qc-skqd
+skqd gate CV_2x2_info,Gate-and-evidence discipline
+skqd gate CV_2x2_info,su2qc-skqd
+skqd gate CV_2x3_plan,Gate-and-evidence discipline
+skqd gate CV_2x3_plan,Krylov subspace and Lanczos
+skqd gate CV_2x3_plan,Noise models and digital twin
+skqd gate CV_2x3_plan,su2qc-skqd
+skqd gate E1,Baryon-number sectors
+skqd gate E1,Gate-and-evidence discipline
+skqd gate E1,skqd.basis
+skqd gate E1,skqd.fullspace
+skqd gate E1,skqd.hamiltonian
+skqd gate E1,skqd.lattice
+skqd gate E1,skqd.report
+skqd gate E1,skqd.su2
+skqd gate E1,su2qc-skqd
+skqd gate E2,Codewords and the Gauss-law decoder
+skqd gate E2,Gate-and-evidence discipline
+skqd gate E2,skqd.basis
+skqd gate E2,skqd.codec
+skqd gate E2,skqd.lattice
+skqd gate E2,skqd.report
+skqd gate E2,skqd.vertex
+skqd gate E2,su2qc-skqd
+skqd gate E3,Baryon-number sectors
+skqd gate E3,Gate-and-evidence discipline
+skqd gate E3,skqd.exact
+skqd gate E3,skqd.report
+skqd gate E3,su2qc-skqd
+skqd gate H0,Codewords and the Gauss-law decoder
+skqd gate H0,Gate-and-evidence discipline
+skqd gate H0,skqd.codec
+skqd gate H0,skqd.exact
+skqd gate H0,skqd.reference_sim
+skqd gate H0,skqd.report
+skqd gate H0,skqd.skqd
+skqd gate H0,su2qc-skqd
+skqd gate H0P,Clean-shot fraction
+skqd gate H0P,Gate-and-evidence discipline
+skqd gate H0P,Readout error and confusion matrix
+skqd gate H0P,Ritz values and certified bounds
+skqd gate H0P,skqd.codec
+skqd gate H0P,skqd.exact
+skqd gate H0P,skqd.hardware
+skqd gate H0P,skqd.idle
+skqd gate H0P,skqd.krylov
+skqd gate H0P,skqd.reference_sim
+skqd gate H0P,skqd.report
+skqd gate H0P,skqd.skqd
+skqd gate H0P,su2qc-skqd
+skqd gate H0P_ibm_fez,Gate-and-evidence discipline
+skqd gate H0P_ibm_fez,ibm_fez
+skqd gate H0P_ibm_fez,skqd.codec
+skqd gate H0P_ibm_fez,skqd.exact
+skqd gate H0P_ibm_fez,skqd.reference_sim
+skqd gate H0P_ibm_fez,skqd.report
+skqd gate H0P_ibm_fez,skqd.skqd
+skqd gate H0P_ibm_fez,su2qc-skqd
+skqd gate H0P_rehearsal,Gate-and-evidence discipline
+skqd gate H0P_rehearsal,ibm_fez
+skqd gate H0P_rehearsal,skqd.codec
+skqd gate H0P_rehearsal,skqd.exact
+skqd gate H0P_rehearsal,skqd.reference_sim
+skqd gate H0P_rehearsal,skqd.report
+skqd gate H0P_rehearsal,skqd.skqd
+skqd gate H0P_rehearsal,su2qc-skqd
+skqd gate H0P_repro,Clean-shot fraction
+skqd gate H0P_repro,Gate-and-evidence discipline
+skqd gate H0P_repro,Readout error and confusion matrix
+skqd gate H0P_repro,Ritz values and certified bounds
+skqd gate H0P_repro,ibm_fez
+skqd gate H0P_repro,su2qc-skqd
+skqd gate H0_2x2,Baryon-number sectors
+skqd gate H0_2x2,Codewords and the Gauss-law decoder
+skqd gate H0_2x2,Gate-and-evidence discipline
+skqd gate H0_2x2,Ritz values and certified bounds
+skqd gate H0_2x2,Sample-based Krylov quantum diagonalization (SKQD)
+skqd gate H0_2x2,ibm_kingston
+skqd gate H0_2x2,skqd.codec
+skqd gate H0_2x2,skqd.krylov
+skqd gate H0_2x2,skqd.report
+skqd gate H0_2x2,skqd.skqd
+skqd gate H0_2x2,su2qc-skqd
+skqd gate H0_2x2_dryrun,Baryon-number sectors
+skqd gate H0_2x2_dryrun,Codewords and the Gauss-law decoder
+skqd gate H0_2x2_dryrun,Gate-and-evidence discipline
+skqd gate H0_2x2_dryrun,Ritz values and certified bounds
+skqd gate H0_2x2_dryrun,Sample-based Krylov quantum diagonalization (SKQD)
+skqd gate H0_2x2_dryrun,ibm_kingston
+skqd gate H0_2x2_dryrun,su2qc-skqd
+skqd gate H0_canary,Gate-and-evidence discipline
+skqd gate H0_canary,Readout error and confusion matrix
+skqd gate H0_canary,ibm_fez
+skqd gate H0_canary,skqd.codec
+skqd gate H0_canary,skqd.exact
+skqd gate H0_canary,skqd.reference_sim
+skqd gate H0_canary,skqd.report
+skqd gate H0_canary,skqd.skqd
+skqd gate H0_canary,su2qc-skqd
+skqd gate H0_ddrep,Decoherence (T1 and T2)
+skqd gate H0_ddrep,Dynamical decoupling
+skqd gate H0_ddrep,Gate-and-evidence discipline
+skqd gate H0_ddrep,Preregistration
+skqd gate H0_ddrep,SIGReg
+skqd gate H0_ddrep,skqd.codec
+skqd gate H0_ddrep,skqd.report
+skqd gate H0_ddrep,skqd.skqd
+skqd gate H0_ddrep,su2qc-skqd
+skqd gate H0_ddrep_dryrun,Decoherence (T1 and T2)
+skqd gate H0_ddrep_dryrun,Dynamical decoupling
+skqd gate H0_ddrep_dryrun,Gate-and-evidence discipline
+skqd gate H0_ddrep_dryrun,SIGReg
+skqd gate H0_ddrep_dryrun,ibm_kingston
+skqd gate H0_ddrep_dryrun,su2qc-skqd
+skqd gate H0_ddtest,Dynamical decoupling
+skqd gate H0_ddtest,Gate-and-evidence discipline
+skqd gate H0_ddtest,Preregistration
+skqd gate H0_ddtest,skqd.codec
+skqd gate H0_ddtest,skqd.idle
+skqd gate H0_ddtest,skqd.report
+skqd gate H0_ddtest,skqd.skqd
+skqd gate H0_ddtest,su2qc-skqd
+skqd gate H0_ddtest_dryrun,Dynamical decoupling
+skqd gate H0_ddtest_dryrun,Gate-and-evidence discipline
+skqd gate H0_ddtest_dryrun,Preregistration
+skqd gate H0_ddtest_dryrun,su2qc-skqd
+skqd gate H0_diag,Decoherence (T1 and T2)
+skqd gate H0_diag,Dynamical decoupling
+skqd gate H0_diag,Gate-and-evidence discipline
+skqd gate H0_diag,ibm_fez
+skqd gate H0_diag,skqd.codec
+skqd gate H0_diag,skqd.exact
+skqd gate H0_diag,skqd.hardware
+skqd gate H0_diag,skqd.reference_sim
+skqd gate H0_diag,skqd.report
+skqd gate H0_diag,skqd.skqd
+skqd gate H0_diag,su2qc-skqd
+skqd gate H0_diag_dryrun,Decoherence (T1 and T2)
+skqd gate H0_diag_dryrun,Dynamical decoupling
+skqd gate H0_diag_dryrun,Gate-and-evidence discipline
+skqd gate H0_diag_dryrun,ibm_fez
+skqd gate H0_diag_dryrun,su2qc-skqd
+skqd gate H0_dryrun,Gate-and-evidence discipline
+skqd gate H0_dryrun,Qiskit
+skqd gate H0_dryrun,skqd.codec
+skqd gate H0_dryrun,skqd.exact
+skqd gate H0_dryrun,skqd.reference_sim
+skqd gate H0_dryrun,skqd.report
+skqd gate H0_dryrun,skqd.skqd
+skqd gate H0_dryrun,su2qc-skqd
+skqd gate H0_kpilot,Clean-shot fraction
+skqd gate H0_kpilot,Decoherence (T1 and T2)
+skqd gate H0_kpilot,Gate-and-evidence discipline
+skqd gate H0_kpilot,ibm_kingston
+skqd gate H0_kpilot,skqd.codec
+skqd gate H0_kpilot,skqd.idle
+skqd gate H0_kpilot,skqd.report
+skqd gate H0_kpilot,skqd.skqd
+skqd gate H0_kpilot,su2qc-skqd
+skqd gate H0_kpilot_dryrun,Clean-shot fraction
+skqd gate H0_kpilot_dryrun,Decoherence (T1 and T2)
+skqd gate H0_kpilot_dryrun,Gate-and-evidence discipline
+skqd gate H0_kpilot_dryrun,ibm_kingston
+skqd gate H0_kpilot_dryrun,su2qc-skqd
+skqd gate H0_model,Clean-shot fraction
+skqd gate H0_model,Decoherence (T1 and T2)
+skqd gate H0_model,Gate-and-evidence discipline
+skqd gate H0_model,Noise models and digital twin
+skqd gate H0_model,skqd.codec
+skqd gate H0_model,skqd.exact
+skqd gate H0_model,skqd.krylov
+skqd gate H0_model,skqd.reference_sim
+skqd gate H0_model,skqd.report
+skqd gate H0_model,skqd.skqd
+skqd gate H0_model,su2qc-skqd
+skqd gate H1,Gate-and-evidence discipline
+skqd gate H1,Ritz values and certified bounds
+skqd gate H1,skqd.codec
+skqd gate H1,skqd.exact
+skqd gate H1,skqd.reference_sim
+skqd gate H1,skqd.report
+skqd gate H1,skqd.skqd
+skqd gate H1,su2qc-skqd
+skqd gate H2,Gate-and-evidence discipline
+skqd gate H2,Ritz values and certified bounds
+skqd gate H2,skqd.codec
+skqd gate H2,skqd.exact
+skqd gate H2,skqd.reference_sim
+skqd gate H2,skqd.report
+skqd gate H2,skqd.skqd
+skqd gate H2,su2qc-skqd
+skqd gate K0_2x3_2x4,Decoherence (T1 and T2)
+skqd gate K0_2x3_2x4,Dynamical decoupling
+skqd gate K0_2x3_2x4,Gate-and-evidence discipline
+skqd gate K0_2x3_2x4,Transpilation and CZ count
+skqd gate K0_2x3_2x4,ibm_kingston
+skqd gate K0_2x3_2x4,skqd.circuits_ir
+skqd gate K0_2x3_2x4,skqd.circuits_qiskit
+skqd gate K0_2x3_2x4,skqd.codec
+skqd gate K0_2x3_2x4,skqd.exact
+skqd gate K0_2x3_2x4,skqd.hardware
+skqd gate K0_2x3_2x4,skqd.idle
+skqd gate K0_2x3_2x4,skqd.krylov
+skqd gate K0_2x3_2x4,skqd.reference_sim
+skqd gate K0_2x3_2x4,skqd.report
+skqd gate K0_2x3_2x4,su2qc-skqd
+skqd gate K1_2x3_fpilot,Dynamical decoupling
+skqd gate K1_2x3_fpilot,Gate-and-evidence discipline
+skqd gate K1_2x3_fpilot,Transpilation and CZ count
+skqd gate K1_2x3_fpilot,ibm_kingston
+skqd gate K1_2x3_fpilot,skqd.codec
+skqd gate K1_2x3_fpilot,skqd.hardware
+skqd gate K1_2x3_fpilot,skqd.report
+skqd gate K1_2x3_fpilot,skqd.skqd
+skqd gate K1_2x3_fpilot,su2qc-skqd
+skqd gate K1_2x3_fpilot_dryrun,Baryon-number sectors
+skqd gate K1_2x3_fpilot_dryrun,Dynamical decoupling
+skqd gate K1_2x3_fpilot_dryrun,Gate-and-evidence discipline
+skqd gate K1_2x3_fpilot_dryrun,Preregistration
+skqd gate K1_2x3_fpilot_dryrun,Transpilation and CZ count
+skqd gate K1_2x3_fpilot_dryrun,ibm_kingston
+skqd gate K1_2x3_fpilot_dryrun,su2qc-skqd
+skqd gate L2,Gate-and-evidence discipline
+skqd gate L2,Qiskit
+skqd gate L2,skqd.circuits_ir
+skqd gate L2,skqd.circuits_qiskit
+skqd gate L2,skqd.codec
+skqd gate L2,skqd.exact
+skqd gate L2,skqd.krylov
+skqd gate L2,skqd.reference_sim
+skqd gate L2,skqd.report
+skqd gate L2,su2qc-skqd
+skqd gate L3,Gate-and-evidence discipline
+skqd gate L3,Transpilation and CZ count
+skqd gate L3,skqd.circuits_ir
+skqd gate L3,skqd.circuits_qiskit
+skqd gate L3,skqd.codec
+skqd gate L3,skqd.exact
+skqd gate L3,skqd.krylov
+skqd gate L3,skqd.report
+skqd gate L3,su2qc-skqd
+skqd gate L4,Gate-and-evidence discipline
+skqd gate L4,Noise models and digital twin
+skqd gate L4,skqd.circuits_ir
+skqd gate L4,skqd.circuits_qiskit
+skqd gate L4,skqd.codec
+skqd gate L4,skqd.exact
+skqd gate L4,skqd.hpc
+skqd gate L4,skqd.krylov
+skqd gate L4,skqd.report
+skqd gate L4,skqd.skqd
+skqd gate L4,su2qc-skqd
+skqd gate L4_fez,Gate-and-evidence discipline
+skqd gate L4_fez,Noise models and digital twin
+skqd gate L4_fez,Transpilation and CZ count
+skqd gate L4_fez,ibm_fez
+skqd gate L4_fez,skqd.circuits_ir
+skqd gate L4_fez,skqd.circuits_qiskit
+skqd gate L4_fez,skqd.codec
+skqd gate L4_fez,skqd.exact
+skqd gate L4_fez,skqd.hpc
+skqd gate L4_fez,skqd.krylov
+skqd gate L4_fez,skqd.report
+skqd gate L4_fez,skqd.skqd
+skqd gate L4_fez,su2qc-skqd
+skqd gate L4_p2_1e-3,Gate-and-evidence discipline
+skqd gate L4_p2_1e-3,Noise models and digital twin
+skqd gate L4_p2_1e-3,su2qc-skqd
+skqd gate L4_p2_3e-3,Gate-and-evidence discipline
+skqd gate L4_p2_3e-3,Noise models and digital twin
+skqd gate L4_p2_3e-3,su2qc-skqd
+skqd gate L5,CUDA-Q
+skqd gate L5,Gate-and-evidence discipline
+skqd gate L5,skqd.circuits_cudaq
+skqd gate L5,skqd.circuits_ir
+skqd gate L5,skqd.codec
+skqd gate L5,skqd.exact
+skqd gate L5,skqd.krylov
+skqd gate L5,skqd.report
+skqd gate L5,su2qc-skqd
+skqd gate M1,Gate-and-evidence discipline
+skqd gate M1,su2qc-skqd
+skqd gate P1,Gate-and-evidence discipline
+skqd gate P1,su2qc-skqd
+skqd gate Q0P_2x3,Gate-and-evidence discipline
+skqd gate Q0P_2x3,Noise models and digital twin
+skqd gate Q0P_2x3,Quantinuum H-series
+skqd gate Q0P_2x3,skqd.circuits_qiskit
+skqd gate Q0P_2x3,skqd.device_req
+skqd gate Q0P_2x3,skqd.exact
+skqd gate Q0P_2x3,skqd.krylov
+skqd gate Q0P_2x3,skqd.quantinuum_native
+skqd gate Q0P_2x3,skqd.reference_sim
+skqd gate Q0P_2x3,skqd.report
+skqd gate Q0P_2x3,skqd.skqd
+skqd gate Q0P_2x3,su2qc-skqd
+skqd gate Q0P_2x3_plan,Gate-and-evidence discipline
+skqd gate Q0P_2x3_plan,Noise models and digital twin
+skqd gate Q0P_2x3_plan,Preregistration
+skqd gate Q0P_2x3_plan,Quantinuum H-series
+skqd gate Q0P_2x3_plan,su2qc-skqd
+skqd gate S1,Gate-and-evidence discipline
+skqd gate S1,Noise models and digital twin
+skqd gate S1,skqd.codec
+skqd gate S1,skqd.controls
+skqd gate S1,skqd.exact
+skqd gate S1,skqd.krylov
+skqd gate S1,skqd.ml
+skqd gate S1,skqd.noise
+skqd gate S1,skqd.report
+skqd gate S1,skqd.skqd
+skqd gate S1,su2qc-skqd
+skqd gate S2,Gate-and-evidence discipline
+skqd gate S2,Transpilation and CZ count
+skqd gate S2,Trotter and Strang splitting
+skqd gate S2,skqd.circuits_ir
+skqd gate S2,skqd.circuits_qiskit
+skqd gate S2,skqd.exact
+skqd gate S2,skqd.krylov
+skqd gate S2,skqd.reference_sim
+skqd gate S2,skqd.report
+skqd gate S2,su2qc-skqd
+skqd gate S2D,Clean-shot fraction
+skqd gate S2D,Gate-and-evidence discipline
+skqd gate S2D,skqd.circuits_ir
+skqd gate S2D,skqd.circuits_qiskit
+skqd gate S2D,skqd.codec
+skqd gate S2D,skqd.exact
+skqd gate S2D,skqd.krylov
+skqd gate S2D,skqd.report
+skqd gate S2D,skqd.skqd
+skqd gate S2D,su2qc-skqd
+skqd gate S2D_idle,Clean-shot fraction
+skqd gate S2D_idle,Decoherence (T1 and T2)
+skqd gate S2D_idle,Gate-and-evidence discipline
+skqd gate S2D_idle,skqd.circuits_qiskit
+skqd gate S2D_idle,skqd.device_req
+skqd gate S2D_idle,skqd.idle
+skqd gate S2D_idle,skqd.report
+skqd gate S2D_idle,skqd.skqd
+skqd gate S2D_idle,su2qc-skqd
+skqd gate S2D_levers,Decoherence (T1 and T2)
+skqd gate S2D_levers,Gate-and-evidence discipline
+skqd gate S2D_levers,ibm_kingston
+skqd gate S2D_levers,skqd.circuits_ir
+skqd gate S2D_levers,skqd.circuits_qiskit
+skqd gate S2D_levers,skqd.codec
+skqd gate S2D_levers,skqd.coherence
+skqd gate S2D_levers,skqd.exact
+skqd gate S2D_levers,skqd.hardware
+skqd gate S2D_levers,skqd.idle
+skqd gate S2D_levers,skqd.krylov
+skqd gate S2D_levers,skqd.reference_sim
+skqd gate S2D_levers,skqd.report
+skqd gate S2D_levers,skqd.skqd
+skqd gate S2D_levers,su2qc-skqd
+skqd gate S2_2x4,Decoherence (T1 and T2)
+skqd gate S2_2x4,Gate-and-evidence discipline
+skqd gate S2_2x4,Trotter and Strang splitting
+skqd gate S2_2x4,skqd.circuits_ir
+skqd gate S2_2x4,skqd.circuits_qiskit
+skqd gate S2_2x4,skqd.coherence
+skqd gate S2_2x4,skqd.device_req
+skqd gate S2_2x4,skqd.exact
+skqd gate S2_2x4,skqd.hpc
+skqd gate S2_2x4,skqd.idle
+skqd gate S2_2x4,skqd.krylov
+skqd gate S2_2x4,skqd.reference_sim
+skqd gate S2_2x4,skqd.report
+skqd gate S2_2x4,skqd.sparse_sim
+skqd gate S2_2x4,su2qc-skqd
+skqd gate S2_fixed,Codewords and the Gauss-law decoder
+skqd gate S2_fixed,Gate-and-evidence discipline
+skqd gate S2_fixed,Leakage-safe data splits
+skqd gate S2_fixed,su2qc-skqd
+skqd gate S3,Gate-and-evidence discipline
+skqd gate S3,Noise models and digital twin
+skqd gate S3,su2qc-skqd
+skqd gate S3_smoke,Gate-and-evidence discipline
+skqd gate S3_smoke,su2qc-skqd
+su2zx gate C0,Gate-and-evidence discipline
+su2zx gate C0,SU2ZX
+su2zx gate C1,Gate-and-evidence discipline
+su2zx gate C1,Noise models and digital twin
+su2zx gate C1,SU2ZX
+su2zx gate C2,Gate-and-evidence discipline
+su2zx gate C2,SU2ZX
+su2zx gate C3,Gate-and-evidence discipline
+su2zx gate C3,SU2ZX
+su2zx gate C4,Gate-and-evidence discipline
+su2zx gate C4,SU2ZX
+su2zx gate C5,Gate-and-evidence discipline
+su2zx gate C5,SU2ZX
+su2zx gate C6,Gate-and-evidence discipline
+su2zx gate C6,SU2ZX
+su2zx gate C7,Gate-and-evidence discipline
+su2zx gate C7,SU2ZX
+su2zx gate C8,Gate-and-evidence discipline
+su2zx gate C8,SU2ZX
+su2zx gate S8-G0,Gate-and-evidence discipline
+su2zx gate S8-G0,SU2ZX
+su2zx gate S8-G1,Baryon-number sectors
+su2zx gate S8-G1,Gate-and-evidence discipline
+su2zx gate S8-G1,Link truncation (j_max)
+su2zx gate S8-G1,SU2ZX
+su2zx gate S8-G1,su2qc.conventions
+su2zx gate S8-G1,su2qc.ham.compare
+su2zx gate S8-G1,su2qc.ham.limits
+su2zx gate S8-G1,su2qc.ham.route_gausskernel
+su2zx gate S8-G1,su2qc.ham.route_spinnet
+su2zx gate S8-G2,Gate-and-evidence discipline
+su2zx gate S8-G2,Link truncation (j_max)
+su2zx gate S8-G2,SU2ZX
+su2zx gate S8-G2,su2qc.dynamics.engine
+su2zx gate S8-G2,su2qc.dynamics.scan
+su2zx gate S8-G3,Gate-and-evidence discipline
+su2zx gate S8-G3,L12 encoding
+su2zx gate S8-G3,Leakage-safe data splits
+su2zx gate S8-G3,SU2ZX
+su2zx gate S8-G3,su2qc.circuits.strang_l12
+su2zx gate S8-G3,su2qc.encodings.l12
+su2zx gate S8-G4,Gate-and-evidence discipline
+su2zx gate S8-G4,SU2ZX
+trotter gate B1,Gate-and-evidence discipline
+trotter gate B1,Plaquette and Wilson loop
+trotter gate B1,Trotter and Strang splitting
+trotter gate B1,su2qc-trotter
+trotter gate B1,su2trotter.cudaq_backend
+trotter gate B1,su2trotter.physics
+trotter gate B1,su2trotter.pipeline
+trotter gate B1,su2trotter.trotter
+trotter gate G22,Gate-and-evidence discipline
+trotter gate G22,su2qc-trotter
+trotter gate G22,su2trotter.baseline
+trotter gate G22,su2trotter.circuit
+trotter gate G22,su2trotter.cudaq_backend
+trotter gate G22,su2trotter.lean
+trotter gate G22,su2trotter.physics
+trotter gate G22,su2trotter.pipeline
+trotter gate G22,su2trotter.sim
+trotter gate G22,su2trotter.trotter
+trotter gate G34,Gate-and-evidence discipline
+trotter gate G34,NERSC Perlmutter
+trotter gate G34,su2qc-trotter
+trotter gate M0,Gate-and-evidence discipline
+trotter gate M0,NERSC Perlmutter
+trotter gate M0,su2qc-trotter
+trotter gate R1,CUDA-Q
+trotter gate R1,Clifford+T and T-count
+trotter gate R1,Gate-and-evidence discipline
+trotter gate R1,su2qc-trotter
+trotter gate R1,su2trotter.baseline
+trotter gate R1,su2trotter.cudaq_backend
+trotter gate R1,su2trotter.lean
+trotter gate R1,su2trotter.physics
+trotter gate R1,su2trotter.pipeline
+trotter gate R1,su2trotter.sim
+trotter gate R1,su2trotter.trotter
+trotter gate V1,CUDA-Q
+trotter gate V1,Clifford+T and T-count
+trotter gate V1,Gate-and-evidence discipline
+trotter gate V1,su2qc-trotter
+trotter gate V1,su2trotter.baseline
+trotter gate V1,su2trotter.cudaq_backend
+trotter gate V1,su2trotter.lean
+trotter gate V1,su2trotter.physics
+trotter gate V1,su2trotter.pipeline
+trotter gate smoke,CUDA-Q
+trotter gate smoke,Gate-and-evidence discipline
+trotter gate smoke,su2qc-trotter
+Genesis Phase-I proposal,SU2ZX
+Genesis Phase-I proposal,genesis-su2-lgt
+Genesis Phase-I proposal,su2qc-jepa
+Genesis Phase-I proposal,su2qc-paulo-code
+Genesis Phase-I proposal,su2qc-qcadvantage
+Genesis Phase-I proposal,su2qc-skqd
+Genesis Phase-I proposal,su2qc-trotter
+IBM Quantum Open Plan,su2qc-jepa
+IonQ Forte,su2qc-jepa
+IonQ Forte,su2qc-skqd
+Laptop (Dell G7),Laptop admission-controlled runner
+NERSC Perlmutter,Perlmutter job queue
+Quantinuum H-series,skqd gate Q0P_2x3
+Quantinuum H-series,skqd.quantinuum_native
+ibm_fez,ibm_kingston
+ibm_fez,skqd gate H0P_ibm_fez
+ibm_fez,skqd gate H0_canary
+ibm_fez,skqd gate H0_diag
+ibm_fez,su2qc-skqd
+ibm_kingston,Result - 2x2 SKQD run on ibm_kingston
+ibm_kingston,Result - 2x3 on ibm_kingston is a measured NO-GO
+ibm_kingston,Result - client-side XY4 gain did not replicate
+ibm_kingston,skqd gate H0_2x2
+ibm_kingston,skqd gate H0_ddrep
+ibm_kingston,skqd gate H0_ddtest
+ibm_kingston,skqd gate H0_kpilot
+ibm_kingston,skqd gate K1_2x3_fpilot
+ibm_kingston,su2qc-skqd
+ibm_marrakesh,su2qc-skqd
+How to use this vault,00 SU2QC Map
+How to use this vault,Gauss's law
+How to use this vault,su2qc-jepa
+How to use this vault,su2qc-skqd
+Gates index,00 SU2QC Map
+Gates index,SU2ZX
+Gates index,genesis gate G0
+Gates index,genesis gate G1
+Gates index,genesis gate G2
+Gates index,genesis gate G3
+Gates index,genesis gate G4
+Gates index,genesis gate G5
+Gates index,genesis gate G6.1
+Gates index,genesis gate G7.1
+Gates index,genesis gate G7.2-G7.4
+Gates index,genesis gate G7.5-G7.6
+Gates index,genesis gate G7.7
+Gates index,genesis gate G7.8
+Gates index,genesis-su2-lgt
+Gates index,jepa gate J0
+Gates index,jepa gate J1
+Gates index,jepa gate J2
+Gates index,jepa gate J3
+Gates index,jepa gate J4
+Gates index,qca gate M1
+Gates index,qca gate M2
+Gates index,qca gate M3
+Gates index,qca gate M4
+Gates index,qca gate M5
+Gates index,qca gate M6
+Gates index,skqd gate CF_estimator_2x2_info
+Gates index,skqd gate CF_traj
+Gates index,skqd gate CS
+Gates index,skqd gate CV_2x2_info
+Gates index,skqd gate CV_2x3_plan
+Gates index,skqd gate E1
+Gates index,skqd gate E2
+Gates index,skqd gate E3
+Gates index,skqd gate H0
+Gates index,skqd gate H0P
+Gates index,skqd gate H0P_ibm_fez
+Gates index,skqd gate H0P_rehearsal
+Gates index,skqd gate H0P_repro
+Gates index,skqd gate H0_2x2
+Gates index,skqd gate H0_2x2_dryrun
+Gates index,skqd gate H0_canary
+Gates index,skqd gate H0_ddrep
+Gates index,skqd gate H0_ddrep_dryrun
+Gates index,skqd gate H0_ddtest
+Gates index,skqd gate H0_ddtest_dryrun
+Gates index,skqd gate H0_diag
+Gates index,skqd gate H0_diag_dryrun
+Gates index,skqd gate H0_dryrun
+Gates index,skqd gate H0_kpilot
+Gates index,skqd gate H0_kpilot_dryrun
+Gates index,skqd gate H0_model
+Gates index,skqd gate H1
+Gates index,skqd gate H2
+Gates index,skqd gate K0_2x3_2x4
+Gates index,skqd gate K1_2x3_fpilot
+Gates index,skqd gate K1_2x3_fpilot_dryrun
+Gates index,skqd gate L2
+Gates index,skqd gate L3
+Gates index,skqd gate L4
+Gates index,skqd gate L4_fez
+Gates index,skqd gate L4_p2_1e-3
+Gates index,skqd gate L4_p2_3e-3
+Gates index,skqd gate L5
+Gates index,skqd gate M1
+Gates index,skqd gate P1
+Gates index,skqd gate Q0P_2x3
+Gates index,skqd gate Q0P_2x3_plan
+Gates index,skqd gate S1
+Gates index,skqd gate S2
+Gates index,skqd gate S2D
+Gates index,skqd gate S2D_idle
+Gates index,skqd gate S2D_levers
+Gates index,skqd gate S2_2x4
+Gates index,skqd gate S2_fixed
+Gates index,skqd gate S3
+Gates index,skqd gate S3_smoke
+Gates index,su2qc-jepa
+Gates index,su2qc-qcadvantage
+Gates index,su2qc-skqd
+Gates index,su2qc-trotter
+Gates index,su2zx gate C0
+Gates index,su2zx gate C1
+Gates index,su2zx gate C2
+Gates index,su2zx gate C3
+Gates index,su2zx gate C4
+Gates index,su2zx gate C5
+Gates index,su2zx gate C6
+Gates index,su2zx gate C7
+Gates index,su2zx gate C8
+Gates index,su2zx gate S8-G0
+Gates index,su2zx gate S8-G1
+Gates index,su2zx gate S8-G2
+Gates index,su2zx gate S8-G3
+Gates index,su2zx gate S8-G4
+Gates index,trotter gate B1
+Gates index,trotter gate G22
+Gates index,trotter gate G34
+Gates index,trotter gate M0
+Gates index,trotter gate R1
+Gates index,trotter gate V1
+Gates index,trotter gate smoke
+Hardware index,00 SU2QC Map
+Hardware index,IBM Quantum Open Plan
+Hardware index,IonQ Forte
+Hardware index,Laptop (Dell G7)
+Hardware index,NERSC Perlmutter
+Hardware index,Quantinuum H-series
+Hardware index,ibm_fez
+Hardware index,ibm_kingston
+Hardware index,ibm_marrakesh
+Methods index,00 SU2QC Map
+Methods index,CIPSI and classical support controls
+Methods index,Clean-shot fraction
+Methods index,Clifford+T and T-count
+Methods index,Codewords and the Gauss-law decoder
+Methods index,Decoherence (T1 and T2)
+Methods index,Dynamical decoupling
+Methods index,Exact diagonalization
+Methods index,JEPA world model
+Methods index,Krylov subspace and Lanczos
+Methods index,Krylov-chain carrier
+Methods index,L12 encoding
+Methods index,Leakage-safe data splits
+Methods index,Loschmidt echo
+Methods index,Noise models and digital twin
+Methods index,Quantum kernel methods
+Methods index,Readout error and confusion matrix
+Methods index,Ritz values and certified bounds
+Methods index,SIGReg
+Methods index,Sample-based Krylov quantum diagonalization (SKQD)
+Methods index,Tensor networks (MPS and TEBD)
+Methods index,Transpilation and CZ count
+Methods index,Trotter and Strang splitting
+Methods index,ZX-calculus circuit optimization
+Methods index,Zero-noise extrapolation
+Modules index,00 SU2QC Map
+Modules index,SU2ZX
+Modules index,genesis-su2-lgt
+Modules index,genesis_su2.backends.cudaq_backend
+Modules index,genesis_su2.backends.ibm_runtime
+Modules index,genesis_su2.backends.qiskit_backend
+Modules index,genesis_su2.cli
+Modules index,genesis_su2.config
+Modules index,genesis_su2.encodings
+Modules index,genesis_su2.exact
+Modules index,genesis_su2.pauli
+Modules index,genesis_su2.qml.energy_surrogate
+Modules index,genesis_su2.su2
+Modules index,skqd.basis
+Modules index,skqd.circuits_cudaq
+Modules index,skqd.circuits_ir
+Modules index,skqd.circuits_qiskit
+Modules index,skqd.codec
+Modules index,skqd.coherence
+Modules index,skqd.controls
+Modules index,skqd.device_req
+Modules index,skqd.exact
+Modules index,skqd.fermions
+Modules index,skqd.fullspace
+Modules index,skqd.hamiltonian
+Modules index,skqd.hardware
+Modules index,skqd.hpc
+Modules index,skqd.idle
+Modules index,skqd.krylov
+Modules index,skqd.lattice
+Modules index,skqd.ml
+Modules index,skqd.noise
+Modules index,skqd.quantinuum_native
+Modules index,skqd.reference_sim
+Modules index,skqd.report
+Modules index,skqd.skqd
+Modules index,skqd.sparse_sim
+Modules index,skqd.su2
+Modules index,skqd.vertex
+Modules index,su2qc-jepa
+Modules index,su2qc-qcadvantage
+Modules index,su2qc-skqd
+Modules index,su2qc-trotter
+Modules index,su2qc.circuits.export_l12
+Modules index,su2qc.circuits.strang_l12
+Modules index,su2qc.circuits.synth_l12
+Modules index,su2qc.compile.route
+Modules index,su2qc.compile.run_g4
+Modules index,su2qc.conventions
+Modules index,su2qc.dynamics.engine
+Modules index,su2qc.dynamics.run_g2
+Modules index,su2qc.dynamics.scan
+Modules index,su2qc.encodings.l12
+Modules index,su2qc.ham.compare
+Modules index,su2qc.ham.limits
+Modules index,su2qc.ham.route_gausskernel
+Modules index,su2qc.ham.route_spinnet
+Modules index,su2qc.replicate
+Modules index,su2qc.twin.twin
+Modules index,su2qc_jepa.compute
+Modules index,su2qc_jepa.data.records
+Modules index,su2qc_jepa.data.trajectories
+Modules index,su2qc_jepa.gates.j0_data
+Modules index,su2qc_jepa.gates.j1_training
+Modules index,su2qc_jepa.gates.j2_forecast
+Modules index,su2qc_jepa.gates.j3_hardware
+Modules index,su2qc_jepa.gates.ledger
+Modules index,su2qc_jepa.hardware.ibm
+Modules index,su2qc_jepa.jobs
+Modules index,su2qc_jepa.localrun
+Modules index,su2qc_jepa.models.jepa
+Modules index,su2qc_jepa.models.train
+Modules index,su2qc_jepa.physics.chain
+Modules index,su2qc_jepa.physics.conventions
+Modules index,su2qc_jepa.physics.dynamics
+Modules index,su2qc_jepa.physics.observables
+Modules index,su2qc_jepa.physics.plaquette
+Modules index,su2qc_jepa.physics.su2
+Modules index,su2qc_jepa.repo.artifacts
+Modules index,su2qc_jepa.repo.graph
+Modules index,su2qc_jepa.twin.layout
+Modules index,su2qc_jepa.twin.noise
+Modules index,su2qc_jepa.twin.run
+Modules index,su2torus.exact
+Modules index,su2torus.hamiltonian
+Modules index,su2torus.lattice
+Modules index,su2torus.mps
+Modules index,su2torus.noise
+Modules index,su2torus.observables
+Modules index,su2torus.thermal
+Modules index,su2torus.trotter
+Modules index,su2trotter.analysis
+Modules index,su2trotter.baseline
+Modules index,su2trotter.circuit
+Modules index,su2trotter.compare
+Modules index,su2trotter.cudaq_backend
+Modules index,su2trotter.draw
+Modules index,su2trotter.lean
+Modules index,su2trotter.optimize
+Modules index,su2trotter.physics
+Modules index,su2trotter.pipeline
+Modules index,su2trotter.plotstyle
+Modules index,su2trotter.sim
+Modules index,su2trotter.synth
+Modules index,su2trotter.trotter
+Modules index,su2zx.compiler_study
+Modules index,su2zx.core
+Modules index,su2zx.paths
+Modules index,su2zx.qpu
+Modules index,su2zx.qpu_analysis
+Modules index,su2zx.report
+Modules index,su2zx.robust_study
+Modules index,su2zx.scaling_study
+Modules index,su2zx.study
+Modules index,su2zx.tn_study
+Papers index,00 SU2QC Map
+Papers index,Alexandru et al. 2019 digitization
+Papers index,Alexandru et al. 2023 fuzzy
+Papers index,Chandrasekharan and Wiese 1997
+Papers index,Ciavarella et al. 2026
+Papers index,Kavaki and Lewis 2024
+Papers index,Kogut and Susskind 1975
+Papers index,Robledo-Moreno et al. 2024
+Papers index,Rosanowski et al. 2025
+Papers index,Yu et al. 2025 SKQD
+Papers index,van Rossum et al. 2026
+Physics concepts index,00 SU2QC Map
+Physics concepts index,Baryon-number sectors
+Physics concepts index,Clebsch-Gordan coefficients
+Physics concepts index,Electric basis
+Physics concepts index,Fuzzy gauge theory
+Physics concepts index,Gauss's law
+Physics concepts index,Intertwiner (dressed-site) basis
+Physics concepts index,Jordan-Wigner mapping
+Physics concepts index,Kogut-Susskind Hamiltonian
+Physics concepts index,Link truncation (j_max)
+Physics concepts index,One-qubit-per-plaquette SU(2) model
+Physics concepts index,Pauli decomposition
+Physics concepts index,Plaquette and Wilson loop
+Physics concepts index,Quantum link (rishon) encoding
+Physics concepts index,SU(2) lattice gauge theory
+Physics concepts index,Shared 2x2 plaquette
+Physics concepts index,Staggered fermions
+Physics concepts index,String breaking
+Physics concepts index,Thermalization and canonical typicality
+Results index,00 SU2QC Map
+Results index,Result - 2x2 SKQD run on ibm_kingston
+Results index,Result - 2x3 needs a different device
+Results index,Result - 2x3 on ibm_kingston is a measured NO-GO
+Results index,Result - CF_traj clean-fraction re-ruling
+Results index,Result - GI-cost campaign stalled at C0
+Results index,Result - J0 data gate passed
+Results index,Result - J1 energy information ceiling
+Results index,Result - J1 ladder fails on the semigroup row
+Results index,Result - SU2ZX section 8 verified plaquette
+Results index,Result - SU2ZX v0.4.0 compiler and MPS study
+Results index,Result - client-side XY4 gain did not replicate
+Results index,Result - genesis QML surrogate is a negative result
+Results index,Result - lean 22-qubit plaquette Trotter step
+Results index,Result - lean and reference circuits agree on GPUs
+Results index,Result - qcadvantage MPS frontier at N=48
+Results index,Result - qcadvantage noise mitigation at N=12
+Results index,Result - qcadvantage thermalization and the beta=0 states
+Workflow index,00 SU2QC Map
+Workflow index,"Agent routing (planner, executor, reviewer, runner, scribe)"
+Workflow index,CUDA-Q
+Workflow index,Decision - jepa 000 frozen conventions
+Workflow index,Decision - jepa 001 numbered artifacts and Graphify
+Workflow index,Decision - jepa 004 laptop and Perlmutter only
+Workflow index,Decision - jepa 005 J1 energy threshold
+Workflow index,Gate-and-evidence discipline
+Workflow index,Graphify code graph
+Workflow index,Laptop admission-controlled runner
+Workflow index,Numbered artifacts
+Workflow index,Perlmutter job queue
+Workflow index,Preregistration
+Workflow index,Qiskit
+genesis_su2.backends.cudaq_backend,CUDA-Q
+genesis_su2.backends.cudaq_backend,Pauli decomposition
+genesis_su2.backends.cudaq_backend,genesis-su2-lgt
+genesis_su2.backends.cudaq_backend,genesis_su2.pauli
+genesis_su2.backends.ibm_runtime,genesis-su2-lgt
+genesis_su2.backends.ibm_runtime,genesis_su2.backends.qiskit_backend
+genesis_su2.backends.qiskit_backend,Pauli decomposition
+genesis_su2.backends.qiskit_backend,Qiskit
+genesis_su2.backends.qiskit_backend,genesis gate G3
+genesis_su2.backends.qiskit_backend,genesis-su2-lgt
+genesis_su2.backends.qiskit_backend,genesis_su2.exact
+genesis_su2.backends.qiskit_backend,genesis_su2.pauli
+genesis_su2.cli,genesis-su2-lgt
+genesis_su2.cli,genesis_su2.exact
+genesis_su2.config,genesis-su2-lgt
+genesis_su2.encodings,Electric basis
+genesis_su2.encodings,Gauss's law
+genesis_su2.encodings,Link truncation (j_max)
+genesis_su2.encodings,Quantum link (rishon) encoding
+genesis_su2.encodings,SU(2) lattice gauge theory
+genesis_su2.encodings,Staggered fermions
+genesis_su2.encodings,genesis gate G7.2-G7.4
+genesis_su2.encodings,genesis-su2-lgt
+genesis_su2.exact,genesis gate G1
+genesis_su2.exact,genesis gate G2
+genesis_su2.exact,genesis gate G3
+genesis_su2.exact,genesis gate G7.1
+genesis_su2.exact,genesis-su2-lgt
+genesis_su2.exact,genesis_su2.pauli
+genesis_su2.pauli,Link truncation (j_max)
+genesis_su2.pauli,Pauli decomposition
+genesis_su2.pauli,Plaquette and Wilson loop
+genesis_su2.pauli,SU(2) lattice gauge theory
+genesis_su2.pauli,genesis gate G1
+genesis_su2.pauli,genesis gate G2
+genesis_su2.pauli,genesis gate G7.1
+genesis_su2.pauli,genesis-su2-lgt
+genesis_su2.qml.energy_surrogate,Quantum kernel methods
+genesis_su2.qml.energy_surrogate,genesis gate G6.1
+genesis_su2.qml.energy_surrogate,genesis-su2-lgt
+genesis_su2.qml.energy_surrogate,genesis_su2.config
+genesis_su2.qml.energy_surrogate,genesis_su2.exact
+genesis_su2.su2,SU(2) lattice gauge theory
+genesis_su2.su2,genesis gate G1
+genesis_su2.su2,genesis gate G2
+genesis_su2.su2,genesis-su2-lgt
+su2qc_jepa.compute,Laptop (Dell G7)
+su2qc_jepa.compute,Laptop admission-controlled runner
+su2qc_jepa.compute,NERSC Perlmutter
+su2qc_jepa.compute,Perlmutter job queue
+su2qc_jepa.compute,su2qc-jepa
+su2qc_jepa.data.records,Krylov subspace and Lanczos
+su2qc_jepa.data.records,Krylov-chain carrier
+su2qc_jepa.data.records,L12 encoding
+su2qc_jepa.data.records,Leakage-safe data splits
+su2qc_jepa.data.records,Noise models and digital twin
+su2qc_jepa.data.records,su2qc-jepa
+su2qc_jepa.data.records,su2qc_jepa.physics.chain
+su2qc_jepa.data.records,su2qc_jepa.physics.dynamics
+su2qc_jepa.data.records,su2qc_jepa.physics.observables
+su2qc_jepa.data.trajectories,Gauss's law
+su2qc_jepa.data.trajectories,JEPA world model
+su2qc_jepa.data.trajectories,Leakage-safe data splits
+su2qc_jepa.data.trajectories,Noise models and digital twin
+su2qc_jepa.data.trajectories,su2qc-jepa
+su2qc_jepa.data.trajectories,su2qc_jepa.data.records
+su2qc_jepa.data.trajectories,su2qc_jepa.physics.conventions
+su2qc_jepa.data.trajectories,su2qc_jepa.physics.dynamics
+su2qc_jepa.data.trajectories,su2qc_jepa.physics.observables
+su2qc_jepa.data.trajectories,su2qc_jepa.physics.plaquette
+su2qc_jepa.gates.j0_data,Gate-and-evidence discipline
+su2qc_jepa.gates.j0_data,Krylov subspace and Lanczos
+su2qc_jepa.gates.j0_data,Leakage-safe data splits
+su2qc_jepa.gates.j0_data,Noise models and digital twin
+su2qc_jepa.gates.j0_data,jepa gate J0
+su2qc_jepa.gates.j0_data,su2qc-jepa
+su2qc_jepa.gates.j0_data,su2qc_jepa.data.records
+su2qc_jepa.gates.j0_data,su2qc_jepa.gates.ledger
+su2qc_jepa.gates.j0_data,su2qc_jepa.physics.chain
+su2qc_jepa.gates.j0_data,su2qc_jepa.physics.conventions
+su2qc_jepa.gates.j0_data,su2qc_jepa.physics.dynamics
+su2qc_jepa.gates.j0_data,su2qc_jepa.physics.observables
+su2qc_jepa.gates.j0_data,su2qc_jepa.physics.plaquette
+su2qc_jepa.gates.j0_data,su2qc_jepa.twin.noise
+su2qc_jepa.gates.j0_data,su2qc_jepa.twin.run
+su2qc_jepa.gates.j1_training,Gate-and-evidence discipline
+su2qc_jepa.gates.j1_training,jepa gate J1
+su2qc_jepa.gates.j1_training,su2qc-jepa
+su2qc_jepa.gates.j1_training,su2qc_jepa.gates.ledger
+su2qc_jepa.gates.j1_training,su2qc_jepa.models.train
+su2qc_jepa.gates.j2_forecast,Gate-and-evidence discipline
+su2qc_jepa.gates.j2_forecast,Leakage-safe data splits
+su2qc_jepa.gates.j2_forecast,jepa gate J2
+su2qc_jepa.gates.j2_forecast,su2qc-jepa
+su2qc_jepa.gates.j2_forecast,su2qc_jepa.gates.ledger
+su2qc_jepa.gates.j3_hardware,Gate-and-evidence discipline
+su2qc_jepa.gates.j3_hardware,Noise models and digital twin
+su2qc_jepa.gates.j3_hardware,Preregistration
+su2qc_jepa.gates.j3_hardware,jepa gate J3
+su2qc_jepa.gates.j3_hardware,su2qc-jepa
+su2qc_jepa.gates.j3_hardware,su2qc_jepa.gates.ledger
+su2qc_jepa.gates.ledger,Gate-and-evidence discipline
+su2qc_jepa.gates.ledger,su2qc-jepa
+su2qc_jepa.hardware.ibm,Gate-and-evidence discipline
+su2qc_jepa.hardware.ibm,Transpilation and CZ count
+su2qc_jepa.hardware.ibm,su2qc-jepa
+su2qc_jepa.jobs,Intertwiner (dressed-site) basis
+su2qc_jepa.jobs,NERSC Perlmutter
+su2qc_jepa.jobs,Numbered artifacts
+su2qc_jepa.jobs,Perlmutter job queue
+su2qc_jepa.jobs,su2qc-jepa
+su2qc_jepa.localrun,Gate-and-evidence discipline
+su2qc_jepa.localrun,Laptop (Dell G7)
+su2qc_jepa.localrun,Laptop admission-controlled runner
+su2qc_jepa.localrun,NERSC Perlmutter
+su2qc_jepa.localrun,Perlmutter job queue
+su2qc_jepa.localrun,su2qc-jepa
+su2qc_jepa.localrun,su2qc_jepa.compute
+su2qc_jepa.localrun,su2qc_jepa.jobs
+su2qc_jepa.models.jepa,Gauss's law
+su2qc_jepa.models.jepa,JEPA world model
+su2qc_jepa.models.jepa,SIGReg
+su2qc_jepa.models.jepa,su2qc-jepa
+su2qc_jepa.models.train,Gate-and-evidence discipline
+su2qc_jepa.models.train,JEPA world model
+su2qc_jepa.models.train,su2qc-jepa
+su2qc_jepa.models.train,su2qc_jepa.models.jepa
+su2qc_jepa.physics.chain,Baryon-number sectors
+su2qc_jepa.physics.chain,Krylov subspace and Lanczos
+su2qc_jepa.physics.chain,Krylov-chain carrier
+su2qc_jepa.physics.chain,L12 encoding
+su2qc_jepa.physics.chain,Leakage-safe data splits
+su2qc_jepa.physics.chain,Noise models and digital twin
+su2qc_jepa.physics.chain,Transpilation and CZ count
+su2qc_jepa.physics.chain,Trotter and Strang splitting
+su2qc_jepa.physics.chain,su2qc-jepa
+su2qc_jepa.physics.chain,su2qc_jepa.physics.dynamics
+su2qc_jepa.physics.conventions,Jordan-Wigner mapping
+su2qc_jepa.physics.conventions,Kogut-Susskind Hamiltonian
+su2qc_jepa.physics.conventions,Plaquette and Wilson loop
+su2qc_jepa.physics.conventions,SU(2) lattice gauge theory
+su2qc_jepa.physics.conventions,Staggered fermions
+su2qc_jepa.physics.conventions,su2qc-jepa
+su2qc_jepa.physics.dynamics,Exact diagonalization
+su2qc_jepa.physics.dynamics,Krylov subspace and Lanczos
+su2qc_jepa.physics.dynamics,Link truncation (j_max)
+su2qc_jepa.physics.dynamics,su2qc-jepa
+su2qc_jepa.physics.observables,Gauss's law
+su2qc_jepa.physics.observables,Plaquette and Wilson loop
+su2qc_jepa.physics.observables,su2qc-jepa
+su2qc_jepa.physics.observables,su2qc_jepa.physics.conventions
+su2qc_jepa.physics.observables,su2qc_jepa.physics.plaquette
+su2qc_jepa.physics.plaquette,Gauss's law
+su2qc_jepa.physics.plaquette,Kogut-Susskind Hamiltonian
+su2qc_jepa.physics.plaquette,Link truncation (j_max)
+su2qc_jepa.physics.plaquette,Plaquette and Wilson loop
+su2qc_jepa.physics.plaquette,SU(2) lattice gauge theory
+su2qc_jepa.physics.plaquette,Staggered fermions
+su2qc_jepa.physics.plaquette,su2qc-jepa
+su2qc_jepa.physics.plaquette,su2qc_jepa.physics.conventions
+su2qc_jepa.physics.plaquette,su2qc_jepa.physics.su2
+su2qc_jepa.physics.su2,Clebsch-Gordan coefficients
+su2qc_jepa.physics.su2,SU(2) lattice gauge theory
+su2qc_jepa.physics.su2,su2qc-jepa
+su2qc_jepa.repo.artifacts,"Agent routing (planner, executor, reviewer, runner, scribe)"
+su2qc_jepa.repo.artifacts,Numbered artifacts
+su2qc_jepa.repo.artifacts,su2qc-jepa
+su2qc_jepa.repo.artifacts,su2qc_jepa.jobs
+su2qc_jepa.repo.graph,Graphify code graph
+su2qc_jepa.repo.graph,su2qc-jepa
+su2qc_jepa.twin.layout,Krylov-chain carrier
+su2qc_jepa.twin.layout,Readout error and confusion matrix
+su2qc_jepa.twin.layout,Transpilation and CZ count
+su2qc_jepa.twin.layout,su2qc-jepa
+su2qc_jepa.twin.noise,Gate-and-evidence discipline
+su2qc_jepa.twin.noise,Noise models and digital twin
+su2qc_jepa.twin.noise,su2qc-jepa
+su2qc_jepa.twin.run,Noise models and digital twin
+su2qc_jepa.twin.run,su2qc-jepa
+su2qc_jepa.twin.run,su2qc_jepa.data.records
+su2qc_jepa.twin.run,su2qc_jepa.physics.chain
+su2torus.exact,qca gate M2
+su2torus.exact,su2qc-qcadvantage
+su2torus.exact,su2torus.hamiltonian
+su2torus.hamiltonian,Noise models and digital twin
+su2torus.hamiltonian,One-qubit-per-plaquette SU(2) model
+su2torus.hamiltonian,Plaquette and Wilson loop
+su2torus.hamiltonian,Qiskit
+su2torus.hamiltonian,SU(2) lattice gauge theory
+su2torus.hamiltonian,qca gate M1
+su2torus.hamiltonian,qca gate M2
+su2torus.hamiltonian,qca gate M3
+su2torus.hamiltonian,su2qc-qcadvantage
+su2torus.lattice,One-qubit-per-plaquette SU(2) model
+su2torus.lattice,Plaquette and Wilson loop
+su2torus.lattice,qca gate M1
+su2torus.lattice,qca gate M2
+su2torus.lattice,qca gate M3
+su2torus.lattice,qca gate M4
+su2torus.lattice,qca gate M5
+su2torus.lattice,su2qc-qcadvantage
+su2torus.mps,Plaquette and Wilson loop
+su2torus.mps,Qiskit
+su2torus.mps,Tensor networks (MPS and TEBD)
+su2torus.mps,Trotter and Strang splitting
+su2torus.mps,qca gate M5
+su2torus.mps,su2qc-qcadvantage
+su2torus.mps,su2torus.trotter
+su2torus.noise,Noise models and digital twin
+su2torus.noise,Readout error and confusion matrix
+su2torus.noise,qca gate M4
+su2torus.noise,su2qc-qcadvantage
+su2torus.noise,su2torus.trotter
+su2torus.observables,qca gate M3
+su2torus.observables,su2qc-qcadvantage
+su2torus.observables,su2torus.hamiltonian
+su2torus.thermal,qca gate M3
+su2torus.thermal,su2qc-qcadvantage
+su2torus.thermal,su2torus.exact
+su2torus.trotter,Trotter and Strang splitting
+su2torus.trotter,qca gate M2
+su2torus.trotter,qca gate M4
+su2torus.trotter,qca gate M5
+su2torus.trotter,su2qc-qcadvantage
+skqd.basis,Baryon-number sectors
+skqd.basis,Intertwiner (dressed-site) basis
+skqd.basis,Noise models and digital twin
+skqd.basis,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.basis,skqd gate E1
+skqd.basis,skqd gate E2
+skqd.basis,skqd.lattice
+skqd.basis,skqd.vertex
+skqd.basis,su2qc-skqd
+skqd.circuits_cudaq,CUDA-Q
+skqd.circuits_cudaq,Laptop (Dell G7)
+skqd.circuits_cudaq,Transpilation and CZ count
+skqd.circuits_cudaq,skqd gate L5
+skqd.circuits_cudaq,su2qc-skqd
+skqd.circuits_ir,CUDA-Q
+skqd.circuits_ir,Codewords and the Gauss-law decoder
+skqd.circuits_ir,Electric basis
+skqd.circuits_ir,Krylov subspace and Lanczos
+skqd.circuits_ir,Plaquette and Wilson loop
+skqd.circuits_ir,Qiskit
+skqd.circuits_ir,Trotter and Strang splitting
+skqd.circuits_ir,skqd gate K0_2x3_2x4
+skqd.circuits_ir,skqd gate L2
+skqd.circuits_ir,skqd gate L3
+skqd.circuits_ir,skqd gate L4
+skqd.circuits_ir,skqd gate L4_fez
+skqd.circuits_ir,skqd gate L5
+skqd.circuits_ir,skqd gate S2
+skqd.circuits_ir,skqd gate S2D
+skqd.circuits_ir,skqd gate S2D_levers
+skqd.circuits_ir,skqd gate S2_2x4
+skqd.circuits_ir,skqd.codec
+skqd.circuits_ir,skqd.exact
+skqd.circuits_ir,skqd.krylov
+skqd.circuits_ir,skqd.reference_sim
+skqd.circuits_ir,su2qc-skqd
+skqd.circuits_qiskit,Gate-and-evidence discipline
+skqd.circuits_qiskit,Noise models and digital twin
+skqd.circuits_qiskit,Qiskit
+skqd.circuits_qiskit,Transpilation and CZ count
+skqd.circuits_qiskit,skqd gate CF_traj
+skqd.circuits_qiskit,skqd gate K0_2x3_2x4
+skqd.circuits_qiskit,skqd gate L2
+skqd.circuits_qiskit,skqd gate L3
+skqd.circuits_qiskit,skqd gate L4
+skqd.circuits_qiskit,skqd gate L4_fez
+skqd.circuits_qiskit,skqd gate Q0P_2x3
+skqd.circuits_qiskit,skqd gate S2
+skqd.circuits_qiskit,skqd gate S2D
+skqd.circuits_qiskit,skqd gate S2D_idle
+skqd.circuits_qiskit,skqd gate S2D_levers
+skqd.circuits_qiskit,skqd gate S2_2x4
+skqd.circuits_qiskit,skqd.reference_sim
+skqd.circuits_qiskit,su2qc-skqd
+skqd.codec,Baryon-number sectors
+skqd.codec,Codewords and the Gauss-law decoder
+skqd.codec,Intertwiner (dressed-site) basis
+skqd.codec,Leakage-safe data splits
+skqd.codec,Noise models and digital twin
+skqd.codec,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.codec,Staggered fermions
+skqd.codec,skqd gate E2
+skqd.codec,skqd gate H0
+skqd.codec,skqd gate H0P
+skqd.codec,skqd gate H0P_ibm_fez
+skqd.codec,skqd gate H0P_rehearsal
+skqd.codec,skqd gate H0_2x2
+skqd.codec,skqd gate H0_canary
+skqd.codec,skqd gate H0_ddrep
+skqd.codec,skqd gate H0_ddtest
+skqd.codec,skqd gate H0_diag
+skqd.codec,skqd gate H0_dryrun
+skqd.codec,skqd gate H0_kpilot
+skqd.codec,skqd gate H0_model
+skqd.codec,skqd gate H1
+skqd.codec,skqd gate H2
+skqd.codec,skqd gate K0_2x3_2x4
+skqd.codec,skqd gate K1_2x3_fpilot
+skqd.codec,skqd gate L2
+skqd.codec,skqd gate L3
+skqd.codec,skqd gate L4
+skqd.codec,skqd gate L4_fez
+skqd.codec,skqd gate L5
+skqd.codec,skqd gate S1
+skqd.codec,skqd gate S2D
+skqd.codec,skqd gate S2D_levers
+skqd.codec,skqd.basis
+skqd.codec,su2qc-skqd
+skqd.coherence,Clean-shot fraction
+skqd.coherence,Decoherence (T1 and T2)
+skqd.coherence,skqd gate S2D_levers
+skqd.coherence,skqd gate S2_2x4
+skqd.coherence,skqd.idle
+skqd.coherence,su2qc-skqd
+skqd.controls,"Agent routing (planner, executor, reviewer, runner, scribe)"
+skqd.controls,Baryon-number sectors
+skqd.controls,CIPSI and classical support controls
+skqd.controls,Exact diagonalization
+skqd.controls,Link truncation (j_max)
+skqd.controls,Ritz values and certified bounds
+skqd.controls,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.controls,skqd gate S1
+skqd.controls,skqd.hamiltonian
+skqd.controls,skqd.skqd
+skqd.controls,su2qc-skqd
+skqd.device_req,Clean-shot fraction
+skqd.device_req,Gate-and-evidence discipline
+skqd.device_req,skqd gate Q0P_2x3
+skqd.device_req,skqd gate S2D_idle
+skqd.device_req,skqd gate S2_2x4
+skqd.device_req,su2qc-skqd
+skqd.exact,Baryon-number sectors
+skqd.exact,Exact diagonalization
+skqd.exact,Krylov subspace and Lanczos
+skqd.exact,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.exact,skqd gate E3
+skqd.exact,skqd gate H0
+skqd.exact,skqd gate H0P
+skqd.exact,skqd gate H0P_ibm_fez
+skqd.exact,skqd gate H0P_rehearsal
+skqd.exact,skqd gate H0_canary
+skqd.exact,skqd gate H0_diag
+skqd.exact,skqd gate H0_dryrun
+skqd.exact,skqd gate H0_model
+skqd.exact,skqd gate H1
+skqd.exact,skqd gate H2
+skqd.exact,skqd gate K0_2x3_2x4
+skqd.exact,skqd gate L2
+skqd.exact,skqd gate L3
+skqd.exact,skqd gate L4
+skqd.exact,skqd gate L4_fez
+skqd.exact,skqd gate L5
+skqd.exact,skqd gate Q0P_2x3
+skqd.exact,skqd gate S1
+skqd.exact,skqd gate S2
+skqd.exact,skqd gate S2D
+skqd.exact,skqd gate S2D_levers
+skqd.exact,skqd gate S2_2x4
+skqd.exact,skqd.basis
+skqd.exact,skqd.hamiltonian
+skqd.exact,skqd.lattice
+skqd.exact,su2qc-skqd
+skqd.fermions,Jordan-Wigner mapping
+skqd.fermions,Staggered fermions
+skqd.fermions,skqd.su2
+skqd.fermions,su2qc-skqd
+skqd.fullspace,Baryon-number sectors
+skqd.fullspace,Exact diagonalization
+skqd.fullspace,Gate-and-evidence discipline
+skqd.fullspace,Gauss's law
+skqd.fullspace,Intertwiner (dressed-site) basis
+skqd.fullspace,Jordan-Wigner mapping
+skqd.fullspace,Link truncation (j_max)
+skqd.fullspace,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.fullspace,Staggered fermions
+skqd.fullspace,skqd gate E1
+skqd.fullspace,skqd.basis
+skqd.fullspace,skqd.fermions
+skqd.fullspace,skqd.hamiltonian
+skqd.fullspace,skqd.lattice
+skqd.fullspace,skqd.su2
+skqd.fullspace,su2qc-skqd
+skqd.hamiltonian,Electric basis
+skqd.hamiltonian,Intertwiner (dressed-site) basis
+skqd.hamiltonian,Jordan-Wigner mapping
+skqd.hamiltonian,Link truncation (j_max)
+skqd.hamiltonian,Plaquette and Wilson loop
+skqd.hamiltonian,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.hamiltonian,Staggered fermions
+skqd.hamiltonian,skqd gate E1
+skqd.hamiltonian,skqd.basis
+skqd.hamiltonian,skqd.fermions
+skqd.hamiltonian,skqd.su2
+skqd.hamiltonian,skqd.vertex
+skqd.hamiltonian,su2qc-skqd
+skqd.hardware,Codewords and the Gauss-law decoder
+skqd.hardware,Leakage-safe data splits
+skqd.hardware,Readout error and confusion matrix
+skqd.hardware,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.hardware,Transpilation and CZ count
+skqd.hardware,skqd gate H0P
+skqd.hardware,skqd gate H0_diag
+skqd.hardware,skqd gate K0_2x3_2x4
+skqd.hardware,skqd gate K1_2x3_fpilot
+skqd.hardware,skqd gate S2D_levers
+skqd.hardware,skqd.codec
+skqd.hardware,su2qc-skqd
+skqd.hpc,Gate-and-evidence discipline
+skqd.hpc,NERSC Perlmutter
+skqd.hpc,Perlmutter job queue
+skqd.hpc,Qiskit
+skqd.hpc,skqd gate L4
+skqd.hpc,skqd gate L4_fez
+skqd.hpc,skqd gate S2_2x4
+skqd.hpc,su2qc-skqd
+skqd.idle,Clean-shot fraction
+skqd.idle,Decoherence (T1 and T2)
+skqd.idle,Dynamical decoupling
+skqd.idle,Gate-and-evidence discipline
+skqd.idle,Noise models and digital twin
+skqd.idle,Readout error and confusion matrix
+skqd.idle,Transpilation and CZ count
+skqd.idle,Trotter and Strang splitting
+skqd.idle,skqd gate H0P
+skqd.idle,skqd gate H0_ddtest
+skqd.idle,skqd gate H0_kpilot
+skqd.idle,skqd gate K0_2x3_2x4
+skqd.idle,skqd gate S2D_idle
+skqd.idle,skqd gate S2D_levers
+skqd.idle,skqd gate S2_2x4
+skqd.idle,su2qc-skqd
+skqd.krylov,Baryon-number sectors
+skqd.krylov,Electric basis
+skqd.krylov,Gauss's law
+skqd.krylov,Krylov subspace and Lanczos
+skqd.krylov,Noise models and digital twin
+skqd.krylov,Plaquette and Wilson loop
+skqd.krylov,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.krylov,Staggered fermions
+skqd.krylov,String breaking
+skqd.krylov,Trotter and Strang splitting
+skqd.krylov,skqd gate H0P
+skqd.krylov,skqd gate H0_2x2
+skqd.krylov,skqd gate H0_model
+skqd.krylov,skqd gate K0_2x3_2x4
+skqd.krylov,skqd gate L2
+skqd.krylov,skqd gate L3
+skqd.krylov,skqd gate L4
+skqd.krylov,skqd gate L4_fez
+skqd.krylov,skqd gate L5
+skqd.krylov,skqd gate Q0P_2x3
+skqd.krylov,skqd gate S1
+skqd.krylov,skqd gate S2
+skqd.krylov,skqd gate S2D
+skqd.krylov,skqd gate S2D_levers
+skqd.krylov,skqd gate S2_2x4
+skqd.krylov,skqd.basis
+skqd.krylov,skqd.exact
+skqd.krylov,skqd.hamiltonian
+skqd.krylov,su2qc-skqd
+skqd.lattice,"Agent routing (planner, executor, reviewer, runner, scribe)"
+skqd.lattice,Gauss's law
+skqd.lattice,Jordan-Wigner mapping
+skqd.lattice,Plaquette and Wilson loop
+skqd.lattice,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.lattice,Staggered fermions
+skqd.lattice,skqd gate E1
+skqd.lattice,skqd gate E2
+skqd.lattice,su2qc-skqd
+skqd.ml,Baryon-number sectors
+skqd.ml,Gauss's law
+skqd.ml,Intertwiner (dressed-site) basis
+skqd.ml,Leakage-safe data splits
+skqd.ml,Noise models and digital twin
+skqd.ml,Plaquette and Wilson loop
+skqd.ml,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.ml,Staggered fermions
+skqd.ml,String breaking
+skqd.ml,skqd gate S1
+skqd.ml,skqd.basis
+skqd.ml,skqd.hamiltonian
+skqd.ml,skqd.krylov
+skqd.ml,skqd.lattice
+skqd.ml,su2qc-skqd
+skqd.noise,Clean-shot fraction
+skqd.noise,Codewords and the Gauss-law decoder
+skqd.noise,Noise models and digital twin
+skqd.noise,Readout error and confusion matrix
+skqd.noise,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.noise,skqd gate S1
+skqd.noise,skqd.codec
+skqd.noise,su2qc-skqd
+skqd.quantinuum_native,Gate-and-evidence discipline
+skqd.quantinuum_native,Qiskit
+skqd.quantinuum_native,Quantinuum H-series
+skqd.quantinuum_native,Readout error and confusion matrix
+skqd.quantinuum_native,skqd gate CF_traj
+skqd.quantinuum_native,skqd gate Q0P_2x3
+skqd.quantinuum_native,su2qc-skqd
+skqd.reference_sim,CUDA-Q
+skqd.reference_sim,Codewords and the Gauss-law decoder
+skqd.reference_sim,Gauss's law
+skqd.reference_sim,Intertwiner (dressed-site) basis
+skqd.reference_sim,Jordan-Wigner mapping
+skqd.reference_sim,Plaquette and Wilson loop
+skqd.reference_sim,Qiskit
+skqd.reference_sim,Staggered fermions
+skqd.reference_sim,Transpilation and CZ count
+skqd.reference_sim,Trotter and Strang splitting
+skqd.reference_sim,skqd gate CF_traj
+skqd.reference_sim,skqd gate H0
+skqd.reference_sim,skqd gate H0P
+skqd.reference_sim,skqd gate H0P_ibm_fez
+skqd.reference_sim,skqd gate H0P_rehearsal
+skqd.reference_sim,skqd gate H0_canary
+skqd.reference_sim,skqd gate H0_diag
+skqd.reference_sim,skqd gate H0_dryrun
+skqd.reference_sim,skqd gate H0_model
+skqd.reference_sim,skqd gate H1
+skqd.reference_sim,skqd gate H2
+skqd.reference_sim,skqd gate K0_2x3_2x4
+skqd.reference_sim,skqd gate L2
+skqd.reference_sim,skqd gate Q0P_2x3
+skqd.reference_sim,skqd gate S2
+skqd.reference_sim,skqd gate S2D_levers
+skqd.reference_sim,skqd gate S2_2x4
+skqd.reference_sim,skqd.codec
+skqd.reference_sim,skqd.exact
+skqd.reference_sim,su2qc-skqd
+skqd.report,Gate-and-evidence discipline
+skqd.report,skqd gate CF_traj
+skqd.report,skqd gate E1
+skqd.report,skqd gate E2
+skqd.report,skqd gate E3
+skqd.report,skqd gate H0
+skqd.report,skqd gate H0P
+skqd.report,skqd gate H0P_ibm_fez
+skqd.report,skqd gate H0P_rehearsal
+skqd.report,skqd gate H0_2x2
+skqd.report,skqd gate H0_canary
+skqd.report,skqd gate H0_ddrep
+skqd.report,skqd gate H0_ddtest
+skqd.report,skqd gate H0_diag
+skqd.report,skqd gate H0_dryrun
+skqd.report,skqd gate H0_kpilot
+skqd.report,skqd gate H0_model
+skqd.report,skqd gate H1
+skqd.report,skqd gate H2
+skqd.report,skqd gate K0_2x3_2x4
+skqd.report,skqd gate K1_2x3_fpilot
+skqd.report,skqd gate L2
+skqd.report,skqd gate L3
+skqd.report,skqd gate L4
+skqd.report,skqd gate L4_fez
+skqd.report,skqd gate L5
+skqd.report,skqd gate Q0P_2x3
+skqd.report,skqd gate S1
+skqd.report,skqd gate S2
+skqd.report,skqd gate S2D
+skqd.report,skqd gate S2D_idle
+skqd.report,skqd gate S2D_levers
+skqd.report,skqd gate S2_2x4
+skqd.report,su2qc-skqd
+skqd.skqd,Exact diagonalization
+skqd.skqd,Ritz values and certified bounds
+skqd.skqd,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.skqd,skqd gate CF_traj
+skqd.skqd,skqd gate H0
+skqd.skqd,skqd gate H0P
+skqd.skqd,skqd gate H0P_ibm_fez
+skqd.skqd,skqd gate H0P_rehearsal
+skqd.skqd,skqd gate H0_2x2
+skqd.skqd,skqd gate H0_canary
+skqd.skqd,skqd gate H0_ddrep
+skqd.skqd,skqd gate H0_ddtest
+skqd.skqd,skqd gate H0_diag
+skqd.skqd,skqd gate H0_dryrun
+skqd.skqd,skqd gate H0_kpilot
+skqd.skqd,skqd gate H0_model
+skqd.skqd,skqd gate H1
+skqd.skqd,skqd gate H2
+skqd.skqd,skqd gate K1_2x3_fpilot
+skqd.skqd,skqd gate L4
+skqd.skqd,skqd gate L4_fez
+skqd.skqd,skqd gate Q0P_2x3
+skqd.skqd,skqd gate S1
+skqd.skqd,skqd gate S2D
+skqd.skqd,skqd gate S2D_idle
+skqd.skqd,skqd gate S2D_levers
+skqd.skqd,skqd.controls
+skqd.skqd,su2qc-skqd
+skqd.sparse_sim,"Agent routing (planner, executor, reviewer, runner, scribe)"
+skqd.sparse_sim,Codewords and the Gauss-law decoder
+skqd.sparse_sim,Gate-and-evidence discipline
+skqd.sparse_sim,Link truncation (j_max)
+skqd.sparse_sim,Transpilation and CZ count
+skqd.sparse_sim,Trotter and Strang splitting
+skqd.sparse_sim,skqd gate S2_2x4
+skqd.sparse_sim,su2qc-skqd
+skqd.su2,Clebsch-Gordan coefficients
+skqd.su2,Electric basis
+skqd.su2,Gate-and-evidence discipline
+skqd.su2,Gauss's law
+skqd.su2,Link truncation (j_max)
+skqd.su2,SU(2) lattice gauge theory
+skqd.su2,skqd gate E1
+skqd.su2,su2qc-skqd
+skqd.vertex,Gauss's law
+skqd.vertex,Intertwiner (dressed-site) basis
+skqd.vertex,Noise models and digital twin
+skqd.vertex,Sample-based Krylov quantum diagonalization (SKQD)
+skqd.vertex,Staggered fermions
+skqd.vertex,skqd gate E2
+skqd.vertex,skqd.fermions
+skqd.vertex,skqd.su2
+skqd.vertex,su2qc-skqd
+su2qc.circuits.export_l12,L12 encoding
+su2qc.circuits.export_l12,SU2ZX
+su2qc.circuits.export_l12,su2qc.circuits.strang_l12
+su2qc.circuits.strang_l12,Gauss's law
+su2qc.circuits.strang_l12,Jordan-Wigner mapping
+su2qc.circuits.strang_l12,L12 encoding
+su2qc.circuits.strang_l12,Leakage-safe data splits
+su2qc.circuits.strang_l12,Noise models and digital twin
+su2qc.circuits.strang_l12,SU2ZX
+su2qc.circuits.strang_l12,Trotter and Strang splitting
+su2qc.circuits.strang_l12,su2qc.dynamics.scan
+su2qc.circuits.strang_l12,su2qc.encodings.l12
+su2qc.circuits.strang_l12,su2zx gate S8-G3
+su2qc.circuits.synth_l12,L12 encoding
+su2qc.circuits.synth_l12,SU2ZX
+su2qc.circuits.synth_l12,su2qc.circuits.strang_l12
+su2qc.circuits.synth_l12,su2qc.encodings.l12
+su2qc.compile.route,L12 encoding
+su2qc.compile.route,SU2ZX
+su2qc.compile.route,Transpilation and CZ count
+su2qc.compile.route,ZX-calculus circuit optimization
+su2qc.compile.route,su2qc.circuits.strang_l12
+su2qc.compile.run_g4,Noise models and digital twin
+su2qc.compile.run_g4,SU2ZX
+su2qc.compile.run_g4,Transpilation and CZ count
+su2qc.compile.run_g4,ZX-calculus circuit optimization
+su2qc.compile.run_g4,su2qc.circuits.strang_l12
+su2qc.compile.run_g4,su2qc.circuits.synth_l12
+su2qc.compile.run_g4,su2qc.compile.route
+su2qc.compile.run_g4,su2qc.dynamics.scan
+su2qc.compile.run_g4,su2qc.twin.twin
+su2qc.conventions,Link truncation (j_max)
+su2qc.conventions,Plaquette and Wilson loop
+su2qc.conventions,SU(2) lattice gauge theory
+su2qc.conventions,SU2ZX
+su2qc.conventions,su2zx gate S8-G1
+su2qc.dynamics.engine,Link truncation (j_max)
+su2qc.dynamics.engine,Plaquette and Wilson loop
+su2qc.dynamics.engine,SU(2) lattice gauge theory
+su2qc.dynamics.engine,SU2ZX
+su2qc.dynamics.engine,su2qc.conventions
+su2qc.dynamics.engine,su2qc.ham.route_spinnet
+su2qc.dynamics.engine,su2zx gate S8-G2
+su2qc.dynamics.run_g2,Electric basis
+su2qc.dynamics.run_g2,SU2ZX
+su2qc.dynamics.run_g2,su2qc.dynamics.scan
+su2qc.dynamics.scan,Link truncation (j_max)
+su2qc.dynamics.scan,SU2ZX
+su2qc.dynamics.scan,Trotter and Strang splitting
+su2qc.dynamics.scan,su2qc.conventions
+su2qc.dynamics.scan,su2qc.dynamics.engine
+su2qc.dynamics.scan,su2qc.ham.route_spinnet
+su2qc.dynamics.scan,su2zx gate S8-G2
+su2qc.encodings.l12,L12 encoding
+su2qc.encodings.l12,Qiskit
+su2qc.encodings.l12,SU2ZX
+su2qc.encodings.l12,su2qc.ham.route_spinnet
+su2qc.encodings.l12,su2zx gate S8-G3
+su2qc.ham.compare,SU2ZX
+su2qc.ham.compare,String breaking
+su2qc.ham.compare,su2qc.conventions
+su2qc.ham.compare,su2qc.ham.route_gausskernel
+su2qc.ham.compare,su2qc.ham.route_spinnet
+su2qc.ham.compare,su2zx gate S8-G1
+su2qc.ham.limits,Electric basis
+su2qc.ham.limits,Gate-and-evidence discipline
+su2qc.ham.limits,Plaquette and Wilson loop
+su2qc.ham.limits,SU(2) lattice gauge theory
+su2qc.ham.limits,SU2ZX
+su2qc.ham.limits,su2qc.conventions
+su2qc.ham.limits,su2qc.ham.route_gausskernel
+su2qc.ham.limits,su2qc.ham.route_spinnet
+su2qc.ham.limits,su2zx gate S8-G1
+su2qc.ham.route_gausskernel,Baryon-number sectors
+su2qc.ham.route_gausskernel,Electric basis
+su2qc.ham.route_gausskernel,Gauss's law
+su2qc.ham.route_gausskernel,Jordan-Wigner mapping
+su2qc.ham.route_gausskernel,Kogut-Susskind Hamiltonian
+su2qc.ham.route_gausskernel,Link truncation (j_max)
+su2qc.ham.route_gausskernel,Plaquette and Wilson loop
+su2qc.ham.route_gausskernel,SU2ZX
+su2qc.ham.route_gausskernel,Staggered fermions
+su2qc.ham.route_gausskernel,su2qc.conventions
+su2qc.ham.route_gausskernel,su2zx gate S8-G1
+su2qc.ham.route_spinnet,Baryon-number sectors
+su2qc.ham.route_spinnet,Gauss's law
+su2qc.ham.route_spinnet,Intertwiner (dressed-site) basis
+su2qc.ham.route_spinnet,Link truncation (j_max)
+su2qc.ham.route_spinnet,Plaquette and Wilson loop
+su2qc.ham.route_spinnet,SU(2) lattice gauge theory
+su2qc.ham.route_spinnet,SU2ZX
+su2qc.ham.route_spinnet,Staggered fermions
+su2qc.ham.route_spinnet,su2qc.conventions
+su2qc.ham.route_spinnet,su2zx gate S8-G1
+su2qc.replicate,SU2ZX
+su2qc.twin.twin,Clean-shot fraction
+su2qc.twin.twin,Codewords and the Gauss-law decoder
+su2qc.twin.twin,L12 encoding
+su2qc.twin.twin,Leakage-safe data splits
+su2qc.twin.twin,Noise models and digital twin
+su2qc.twin.twin,SU2ZX
+su2qc.twin.twin,String breaking
+su2qc.twin.twin,su2qc.conventions
+su2qc.twin.twin,su2qc.encodings.l12
+su2zx.compiler_study,SU2ZX
+su2zx.compiler_study,ZX-calculus circuit optimization
+su2zx.compiler_study,su2zx.core
+su2zx.compiler_study,su2zx.paths
+su2zx.core,Link truncation (j_max)
+su2zx.core,Plaquette and Wilson loop
+su2zx.core,Qiskit
+su2zx.core,SU(2) lattice gauge theory
+su2zx.core,SU2ZX
+su2zx.paths,SU2ZX
+su2zx.qpu,SU2ZX
+su2zx.qpu,su2zx.core
+su2zx.qpu,su2zx.paths
+su2zx.qpu,su2zx.robust_study
+su2zx.qpu_analysis,SU2ZX
+su2zx.qpu_analysis,Trotter and Strang splitting
+su2zx.qpu_analysis,su2zx.core
+su2zx.qpu_analysis,su2zx.paths
+su2zx.report,SU2ZX
+su2zx.report,su2zx.paths
+su2zx.robust_study,SU2ZX
+su2zx.robust_study,ZX-calculus circuit optimization
+su2zx.robust_study,su2zx.compiler_study
+su2zx.robust_study,su2zx.core
+su2zx.robust_study,su2zx.paths
+su2zx.scaling_study,SU2ZX
+su2zx.scaling_study,Tensor networks (MPS and TEBD)
+su2zx.scaling_study,su2zx.compiler_study
+su2zx.scaling_study,su2zx.core
+su2zx.scaling_study,su2zx.paths
+su2zx.scaling_study,su2zx.robust_study
+su2zx.study,SU2ZX
+su2zx.study,Trotter and Strang splitting
+su2zx.study,su2zx.core
+su2zx.study,su2zx.paths
+su2zx.tn_study,SU2ZX
+su2zx.tn_study,ZX-calculus circuit optimization
+su2zx.tn_study,su2zx.core
+su2zx.tn_study,su2zx.paths
+su2trotter.analysis,su2qc-trotter
+su2trotter.analysis,su2trotter.physics
+su2trotter.analysis,su2trotter.sim
+su2trotter.baseline,Plaquette and Wilson loop
+su2trotter.baseline,su2qc-trotter
+su2trotter.baseline,su2trotter.circuit
+su2trotter.baseline,su2trotter.physics
+su2trotter.baseline,trotter gate G22
+su2trotter.baseline,trotter gate R1
+su2trotter.baseline,trotter gate V1
+su2trotter.circuit,CUDA-Q
+su2trotter.circuit,Clifford+T and T-count
+su2trotter.circuit,Plaquette and Wilson loop
+su2trotter.circuit,Qiskit
+su2trotter.circuit,su2qc-trotter
+su2trotter.circuit,trotter gate G22
+su2trotter.compare,Clifford+T and T-count
+su2trotter.compare,Leakage-safe data splits
+su2trotter.compare,su2qc-trotter
+su2trotter.compare,su2trotter.physics
+su2trotter.compare,su2trotter.sim
+su2trotter.cudaq_backend,CUDA-Q
+su2trotter.cudaq_backend,Clifford+T and T-count
+su2trotter.cudaq_backend,su2qc-trotter
+su2trotter.cudaq_backend,su2trotter.physics
+su2trotter.cudaq_backend,trotter gate B1
+su2trotter.cudaq_backend,trotter gate G22
+su2trotter.cudaq_backend,trotter gate R1
+su2trotter.cudaq_backend,trotter gate V1
+su2trotter.draw,Qiskit
+su2trotter.draw,su2qc-trotter
+su2trotter.draw,su2trotter.circuit
+su2trotter.lean,Clifford+T and T-count
+su2trotter.lean,Plaquette and Wilson loop
+su2trotter.lean,Transpilation and CZ count
+su2trotter.lean,su2qc-trotter
+su2trotter.lean,su2trotter.baseline
+su2trotter.lean,su2trotter.circuit
+su2trotter.lean,su2trotter.physics
+su2trotter.lean,trotter gate G22
+su2trotter.lean,trotter gate R1
+su2trotter.lean,trotter gate V1
+su2trotter.optimize,Clifford+T and T-count
+su2trotter.optimize,Transpilation and CZ count
+su2trotter.optimize,su2qc-trotter
+su2trotter.optimize,su2trotter.circuit
+su2trotter.physics,Link truncation (j_max)
+su2trotter.physics,Plaquette and Wilson loop
+su2trotter.physics,SU(2) lattice gauge theory
+su2trotter.physics,Trotter and Strang splitting
+su2trotter.physics,su2qc-trotter
+su2trotter.physics,trotter gate B1
+su2trotter.physics,trotter gate G22
+su2trotter.physics,trotter gate R1
+su2trotter.physics,trotter gate V1
+su2trotter.pipeline,CUDA-Q
+su2trotter.pipeline,su2qc-trotter
+su2trotter.pipeline,su2trotter.circuit
+su2trotter.pipeline,su2trotter.cudaq_backend
+su2trotter.pipeline,su2trotter.optimize
+su2trotter.pipeline,su2trotter.sim
+su2trotter.pipeline,su2trotter.synth
+su2trotter.pipeline,trotter gate B1
+su2trotter.pipeline,trotter gate G22
+su2trotter.pipeline,trotter gate R1
+su2trotter.pipeline,trotter gate V1
+su2trotter.plotstyle,su2qc-trotter
+su2trotter.sim,CUDA-Q
+su2trotter.sim,Plaquette and Wilson loop
+su2trotter.sim,su2qc-trotter
+su2trotter.sim,su2trotter.physics
+su2trotter.sim,trotter gate G22
+su2trotter.sim,trotter gate R1
+su2trotter.synth,CUDA-Q
+su2trotter.synth,Clifford+T and T-count
+su2trotter.synth,su2qc-trotter
+su2trotter.synth,su2trotter.circuit
+su2trotter.trotter,Electric basis
+su2trotter.trotter,Link truncation (j_max)
+su2trotter.trotter,Plaquette and Wilson loop
+su2trotter.trotter,Trotter and Strang splitting
+su2trotter.trotter,su2qc-trotter
+su2trotter.trotter,su2trotter.circuit
+su2trotter.trotter,su2trotter.lean
+su2trotter.trotter,su2trotter.physics
+su2trotter.trotter,trotter gate B1
+su2trotter.trotter,trotter gate G22
+su2trotter.trotter,trotter gate R1
+SU2ZX,Graphify code graph
+SU2ZX,Krylov-chain carrier
+SU2ZX,L12 encoding
+SU2ZX,Lessons that travelled
+SU2ZX,Result - GI-cost campaign stalled at C0
+SU2ZX,Result - SU2ZX section 8 verified plaquette
+SU2ZX,Result - SU2ZX v0.4.0 compiler and MPS study
+SU2ZX,Shared 2x2 plaquette
+SU2ZX,Tensor networks (MPS and TEBD)
+SU2ZX,ZX-calculus circuit optimization
+SU2ZX,su2qc-jepa
+SU2ZX,su2qc.circuits.strang_l12
+SU2ZX,su2qc.ham.route_gausskernel
+SU2ZX,su2qc.ham.route_spinnet
+SU2ZX,su2qc.twin.twin
+SU2ZX,su2zx.compiler_study
+SU2ZX,su2zx.core
+SU2ZX,su2zx.qpu
+SU2ZX,su2zx.robust_study
+SU2ZX,su2zx.scaling_study
+SU2ZX,su2zx.tn_study
+genesis-su2-lgt,CUDA-Q
+genesis-su2-lgt,Electric basis
+genesis-su2-lgt,Fuzzy gauge theory
+genesis-su2-lgt,Gates index
+genesis-su2-lgt,Gauss's law
+genesis-su2-lgt,Graphify code graph
+genesis-su2-lgt,Kavaki and Lewis 2024
+genesis-su2-lgt,Package lineage
+genesis-su2-lgt,Pauli decomposition
+genesis-su2-lgt,Qiskit
+genesis-su2-lgt,Quantum kernel methods
+genesis-su2-lgt,Quantum link (rishon) encoding
+genesis-su2-lgt,SU2ZX
+genesis-su2-lgt,Staggered fermions
+genesis-su2-lgt,String breaking
+genesis-su2-lgt,Tensor networks (MPS and TEBD)
+genesis-su2-lgt,genesis_su2.backends.cudaq_backend
+genesis-su2-lgt,genesis_su2.backends.ibm_runtime
+genesis-su2-lgt,genesis_su2.backends.qiskit_backend
+genesis-su2-lgt,genesis_su2.encodings
+genesis-su2-lgt,genesis_su2.exact
+genesis-su2-lgt,genesis_su2.pauli
+genesis-su2-lgt,genesis_su2.qml.energy_surrogate
+genesis-su2-lgt,genesis_su2.su2
+genesis-su2-lgt,su2qc-jepa
+genesis-su2-lgt,su2qc-skqd
+su2qc-jepa,Decision - jepa 000 frozen conventions
+su2qc-jepa,Decision - jepa 001 numbered artifacts and Graphify
+su2qc-jepa,Decision - jepa 004 laptop and Perlmutter only
+su2qc-jepa,Decision - jepa 005 J1 energy threshold
+su2qc-jepa,IBM Quantum Open Plan
+su2qc-jepa,JEPA world model
+su2qc-jepa,Krylov-chain carrier
+su2qc-jepa,Laptop admission-controlled runner
+su2qc-jepa,Perlmutter job queue
+su2qc-jepa,Result - J1 ladder fails on the semigroup row
+su2qc-jepa,SU2ZX
+su2qc-jepa,Shared 2x2 plaquette
+su2qc-jepa,String breaking
+su2qc-jepa,jepa gate J0
+su2qc-jepa,jepa gate J1
+su2qc-jepa,jepa gate J2
+su2qc-jepa,jepa gate J3
+su2qc-jepa,jepa gate J4
+su2qc-jepa,su2qc-skqd
+su2qc-jepa,su2qc_jepa.compute
+su2qc-jepa,su2qc_jepa.data.records
+su2qc-jepa,su2qc_jepa.data.trajectories
+su2qc-jepa,su2qc_jepa.gates.j0_data
+su2qc-jepa,su2qc_jepa.gates.j1_training
+su2qc-jepa,su2qc_jepa.gates.j2_forecast
+su2qc-jepa,su2qc_jepa.gates.j3_hardware
+su2qc-jepa,su2qc_jepa.gates.ledger
+su2qc-jepa,su2qc_jepa.hardware.ibm
+su2qc-jepa,su2qc_jepa.jobs
+su2qc-jepa,su2qc_jepa.localrun
+su2qc-jepa,su2qc_jepa.models.jepa
+su2qc-jepa,su2qc_jepa.models.train
+su2qc-jepa,su2qc_jepa.physics.chain
+su2qc-jepa,su2qc_jepa.physics.conventions
+su2qc-jepa,su2qc_jepa.physics.dynamics
+su2qc-jepa,su2qc_jepa.physics.observables
+su2qc-jepa,su2qc_jepa.physics.plaquette
+su2qc-jepa,su2qc_jepa.physics.su2
+su2qc-jepa,su2qc_jepa.repo.artifacts
+su2qc-jepa,su2qc_jepa.repo.graph
+su2qc-jepa,su2qc_jepa.twin.layout
+su2qc-jepa,su2qc_jepa.twin.noise
+su2qc-jepa,su2qc_jepa.twin.run
+su2qc-paulo-code,Clifford+T and T-count
+su2qc-paulo-code,Link truncation (j_max)
+su2qc-paulo-code,Plaquette and Wilson loop
+su2qc-paulo-code,su2qc-trotter
+su2qc-qcadvantage,Ciavarella et al. 2026
+su2qc-qcadvantage,Decision - qcadvantage open questions before the cluster
+su2qc-qcadvantage,Loschmidt echo
+su2qc-qcadvantage,One-qubit-per-plaquette SU(2) model
+su2qc-qcadvantage,Quantinuum H-series
+su2qc-qcadvantage,Result - qcadvantage MPS frontier at N=48
+su2qc-qcadvantage,Result - qcadvantage noise mitigation at N=12
+su2qc-qcadvantage,Result - qcadvantage thermalization and the beta=0 states
+su2qc-qcadvantage,Tensor networks (MPS and TEBD)
+su2qc-qcadvantage,Thermalization and canonical typicality
+su2qc-qcadvantage,Zero-noise extrapolation
+su2qc-qcadvantage,qca gate M1
+su2qc-qcadvantage,qca gate M2
+su2qc-qcadvantage,qca gate M3
+su2qc-qcadvantage,qca gate M4
+su2qc-qcadvantage,qca gate M5
+su2qc-qcadvantage,qca gate M6
+su2qc-qcadvantage,su2torus.exact
+su2qc-qcadvantage,su2torus.hamiltonian
+su2qc-qcadvantage,su2torus.lattice
+su2qc-qcadvantage,su2torus.mps
+su2qc-qcadvantage,su2torus.noise
+su2qc-qcadvantage,su2torus.observables
+su2qc-qcadvantage,su2torus.thermal
+su2qc-qcadvantage,su2torus.trotter
+su2qc-skqd,"Agent routing (planner, executor, reviewer, runner, scribe)"
+su2qc-skqd,Baryon-number sectors
+su2qc-skqd,Clean-shot fraction
+su2qc-skqd,Codewords and the Gauss-law decoder
+su2qc-skqd,Dynamical decoupling
+su2qc-skqd,Gate-and-evidence discipline
+su2qc-skqd,Gates index
+su2qc-skqd,Intertwiner (dressed-site) basis
+su2qc-skqd,IonQ Forte
+su2qc-skqd,Kogut-Susskind Hamiltonian
+su2qc-skqd,NERSC Perlmutter
+su2qc-skqd,Preregistration
+su2qc-skqd,Quantinuum H-series
+su2qc-skqd,Result - 2x2 SKQD run on ibm_kingston
+su2qc-skqd,Result - 2x3 needs a different device
+su2qc-skqd,Result - 2x3 on ibm_kingston is a measured NO-GO
+su2qc-skqd,Result - CF_traj clean-fraction re-ruling
+su2qc-skqd,Result - client-side XY4 gain did not replicate
+su2qc-skqd,Ritz values and certified bounds
+su2qc-skqd,Sample-based Krylov quantum diagonalization (SKQD)
+su2qc-skqd,Shared 2x2 plaquette
+su2qc-skqd,Staggered fermions
+su2qc-skqd,ibm_fez
+su2qc-skqd,skqd gate CF_traj
+su2qc-skqd,skqd gate CV_2x3_plan
+su2qc-skqd,skqd gate H0_2x2
+su2qc-skqd,skqd gate H0_ddrep
+su2qc-skqd,skqd gate K0_2x3_2x4
+su2qc-skqd,skqd gate K1_2x3_fpilot
+su2qc-skqd,skqd gate Q0P_2x3_plan
+su2qc-skqd,skqd.basis
+su2qc-skqd,skqd.circuits_cudaq
+su2qc-skqd,skqd.circuits_ir
+su2qc-skqd,skqd.circuits_qiskit
+su2qc-skqd,skqd.codec
+su2qc-skqd,skqd.coherence
+su2qc-skqd,skqd.controls
+su2qc-skqd,skqd.device_req
+su2qc-skqd,skqd.exact
+su2qc-skqd,skqd.fermions
+su2qc-skqd,skqd.fullspace
+su2qc-skqd,skqd.hamiltonian
+su2qc-skqd,skqd.hardware
+su2qc-skqd,skqd.hpc
+su2qc-skqd,skqd.idle
+su2qc-skqd,skqd.krylov
+su2qc-skqd,skqd.lattice
+su2qc-skqd,skqd.ml
+su2qc-skqd,skqd.noise
+su2qc-skqd,skqd.quantinuum_native
+su2qc-skqd,skqd.reference_sim
+su2qc-skqd,skqd.report
+su2qc-skqd,skqd.skqd
+su2qc-skqd,skqd.sparse_sim
+su2qc-skqd,skqd.su2
+su2qc-skqd,skqd.vertex
+su2qc-trotter,CUDA-Q
+su2qc-trotter,Clifford+T and T-count
+su2qc-trotter,NERSC Perlmutter
+su2qc-trotter,Perlmutter job queue
+su2qc-trotter,Result - lean 22-qubit plaquette Trotter step
+su2qc-trotter,Result - lean and reference circuits agree on GPUs
+su2qc-trotter,su2qc-paulo-code
+su2qc-trotter,su2trotter.analysis
+su2qc-trotter,su2trotter.baseline
+su2qc-trotter,su2trotter.compare
+su2qc-trotter,su2trotter.cudaq_backend
+su2qc-trotter,su2trotter.lean
+su2qc-trotter,su2trotter.physics
+su2qc-trotter,su2trotter.pipeline
+su2qc-trotter,su2trotter.sim
+su2qc-trotter,su2trotter.synth
+su2qc-trotter,su2trotter.trotter
+su2qc-trotter,trotter gate B1
+su2qc-trotter,trotter gate G22
+su2qc-trotter,trotter gate G34
+su2qc-trotter,trotter gate M0
+su2qc-trotter,trotter gate R1
+su2qc-trotter,trotter gate V1
+su2qc-trotter,trotter gate smoke
+Alexandru et al. 2019 digitization,genesis-su2-lgt
+Alexandru et al. 2023 fuzzy,Fuzzy gauge theory
+Alexandru et al. 2023 fuzzy,genesis-su2-lgt
+Chandrasekharan and Wiese 1997,Quantum link (rishon) encoding
+Chandrasekharan and Wiese 1997,genesis-su2-lgt
+Ciavarella et al. 2026,One-qubit-per-plaquette SU(2) model
+Ciavarella et al. 2026,su2qc-qcadvantage
+Kavaki and Lewis 2024,genesis-su2-lgt
+Kogut and Susskind 1975,Kogut-Susskind Hamiltonian
+Kogut and Susskind 1975,genesis-su2-lgt
+Robledo-Moreno et al. 2024,su2qc-skqd
+Rosanowski et al. 2025,su2qc-skqd
+Yu et al. 2025 SKQD,Sample-based Krylov quantum diagonalization (SKQD)
+Yu et al. 2025 SKQD,su2qc-skqd
+van Rossum et al. 2026,su2qc-skqd
+Result - 2x2 SKQD run on ibm_kingston,Clean-shot fraction
+Result - 2x2 SKQD run on ibm_kingston,Codewords and the Gauss-law decoder
+Result - 2x2 SKQD run on ibm_kingston,Result - 2x3 needs a different device
+Result - 2x2 SKQD run on ibm_kingston,Ritz values and certified bounds
+Result - 2x2 SKQD run on ibm_kingston,ibm_kingston
+Result - 2x2 SKQD run on ibm_kingston,skqd gate H0_2x2
+Result - 2x2 SKQD run on ibm_kingston,su2qc-skqd
+Result - 2x2 SKQD run on ibm_kingston,van Rossum et al. 2026
+Result - 2x3 needs a different device,CIPSI and classical support controls
+Result - 2x3 needs a different device,Decoherence (T1 and T2)
+Result - 2x3 needs a different device,IonQ Forte
+Result - 2x3 needs a different device,Quantinuum H-series
+Result - 2x3 needs a different device,Result - 2x3 on ibm_kingston is a measured NO-GO
+Result - 2x3 needs a different device,skqd gate Q0P_2x3
+Result - 2x3 needs a different device,skqd gate S2D
+Result - 2x3 needs a different device,skqd.idle
+Result - 2x3 on ibm_kingston is a measured NO-GO,Clean-shot fraction
+Result - 2x3 on ibm_kingston is a measured NO-GO,Quantinuum H-series
+Result - 2x3 on ibm_kingston is a measured NO-GO,Result - 2x3 needs a different device
+Result - 2x3 on ibm_kingston is a measured NO-GO,ibm_kingston
+Result - 2x3 on ibm_kingston is a measured NO-GO,skqd gate CV_2x3_plan
+Result - 2x3 on ibm_kingston is a measured NO-GO,skqd gate K0_2x3_2x4
+Result - 2x3 on ibm_kingston is a measured NO-GO,skqd gate K1_2x3_fpilot
+Result - CF_traj clean-fraction re-ruling,Clean-shot fraction
+Result - CF_traj clean-fraction re-ruling,skqd gate CF_traj
+Result - GI-cost campaign stalled at C0,Lessons that travelled
+Result - GI-cost campaign stalled at C0,SU2ZX
+Result - GI-cost campaign stalled at C0,su2qc-jepa
+Result - GI-cost campaign stalled at C0,su2qc-skqd
+Result - GI-cost campaign stalled at C0,su2zx gate C0
+Result - GI-cost campaign stalled at C0,su2zx gate C1
+Result - J0 data gate passed,SU2ZX
+Result - J0 data gate passed,jepa gate J0
+Result - J1 energy information ceiling,Decision - jepa 005 J1 energy threshold
+Result - J1 ladder fails on the semigroup row,NERSC Perlmutter
+Result - J1 ladder fails on the semigroup row,Result - J1 energy information ceiling
+Result - J1 ladder fails on the semigroup row,SIGReg
+Result - J1 ladder fails on the semigroup row,jepa gate J1
+Result - SU2ZX section 8 verified plaquette,Gauss's law
+Result - SU2ZX section 8 verified plaquette,Shared 2x2 plaquette
+Result - SU2ZX section 8 verified plaquette,su2zx gate S8-G1
+Result - SU2ZX section 8 verified plaquette,su2zx gate S8-G2
+Result - SU2ZX section 8 verified plaquette,su2zx gate S8-G3
+Result - SU2ZX v0.4.0 compiler and MPS study,SU2ZX
+Result - SU2ZX v0.4.0 compiler and MPS study,Tensor networks (MPS and TEBD)
+Result - SU2ZX v0.4.0 compiler and MPS study,ZX-calculus circuit optimization
+Result - client-side XY4 gain did not replicate,Clean-shot fraction
+Result - client-side XY4 gain did not replicate,Dynamical decoupling
+Result - client-side XY4 gain did not replicate,ibm_kingston
+Result - client-side XY4 gain did not replicate,skqd gate H0_ddrep
+Result - client-side XY4 gain did not replicate,skqd gate H0_ddtest
+Result - genesis QML surrogate is a negative result,Quantum kernel methods
+Result - genesis QML surrogate is a negative result,genesis-su2-lgt
+Result - lean 22-qubit plaquette Trotter step,Clifford+T and T-count
+Result - lean 22-qubit plaquette Trotter step,Trotter and Strang splitting
+Result - lean 22-qubit plaquette Trotter step,su2qc-paulo-code
+Result - lean 22-qubit plaquette Trotter step,su2qc-trotter
+Result - lean 22-qubit plaquette Trotter step,trotter gate R1
+Result - lean and reference circuits agree on GPUs,CUDA-Q
+Result - lean and reference circuits agree on GPUs,Loschmidt echo
+Result - lean and reference circuits agree on GPUs,NERSC Perlmutter
+Result - lean and reference circuits agree on GPUs,su2qc-trotter
+Result - lean and reference circuits agree on GPUs,trotter gate B1
+Result - lean and reference circuits agree on GPUs,trotter gate G22
+Result - lean and reference circuits agree on GPUs,trotter gate G34
+Result - lean and reference circuits agree on GPUs,trotter gate V1
+Result - qcadvantage MPS frontier at N=48,Decision - qcadvantage open questions before the cluster
+Result - qcadvantage MPS frontier at N=48,Tensor networks (MPS and TEBD)
+Result - qcadvantage MPS frontier at N=48,qca gate M5
+Result - qcadvantage MPS frontier at N=48,qca gate M6
+Result - qcadvantage noise mitigation at N=12,Loschmidt echo
+Result - qcadvantage noise mitigation at N=12,Noise models and digital twin
+Result - qcadvantage noise mitigation at N=12,Zero-noise extrapolation
+Result - qcadvantage noise mitigation at N=12,qca gate M4
+Result - qcadvantage thermalization and the beta=0 states,Decision - qcadvantage open questions before the cluster
+Result - qcadvantage thermalization and the beta=0 states,Thermalization and canonical typicality
+Result - qcadvantage thermalization and the beta=0 states,qca gate M3
+CUDA-Q,genesis_su2.backends.cudaq_backend
+CUDA-Q,skqd.circuits_cudaq
+Gate-and-evidence discipline,Gates index
+Graphify code graph,su2qc_jepa.repo.graph
+Laptop admission-controlled runner,Decision - jepa 004 laptop and Perlmutter only
+Laptop admission-controlled runner,su2qc_jepa.compute
+Laptop admission-controlled runner,su2qc_jepa.localrun
+Numbered artifacts,Decision - jepa 001 numbered artifacts and Graphify
+Numbered artifacts,su2qc_jepa.repo.artifacts
+Perlmutter job queue,NERSC Perlmutter
+Perlmutter job queue,skqd.hpc
+Perlmutter job queue,su2qc_jepa.jobs
+Qiskit,genesis_su2.backends.qiskit_backend
+Qiskit,skqd.circuits_qiskit
+Qiskit,su2qc_jepa.hardware.ibm

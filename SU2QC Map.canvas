@@ -1,0 +1,879 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "x": -1900,
+      "y": -1500,
+      "width": 1400,
+      "height": 140,
+      "type": "text",
+      "text": "# SU2QC packages \u2014 map\n*Built from every SU2QC repository on github.com/digonto10602 (refreshed 2026-10-06). Click any link to open its note.*",
+      "color": "1"
+    },
+    {
+      "id": "proposal",
+      "x": -1650,
+      "y": -1300,
+      "width": 900,
+      "height": 300,
+      "type": "file",
+      "file": "Genesis Phase-I proposal.md",
+      "color": "1"
+    },
+    {
+      "id": "g_genesis",
+      "x": -4090,
+      "y": -930,
+      "width": 1080,
+      "height": 2600,
+      "type": "group",
+      "label": "genesis-su2-lgt (Aug 2026, dormant)",
+      "color": "6"
+    },
+    {
+      "id": "g_su2zx",
+      "x": -2890,
+      "y": -930,
+      "width": 1080,
+      "height": 2600,
+      "type": "group",
+      "label": "SU2ZX = genesis-su2-zx-observables (Sept 2026, paused)",
+      "color": "2"
+    },
+    {
+      "id": "g_skqd",
+      "x": -1690,
+      "y": -930,
+      "width": 1080,
+      "height": 2600,
+      "type": "group",
+      "label": "su2qc-skqd (Project 2, active)",
+      "color": "5"
+    },
+    {
+      "id": "g_shared",
+      "x": -490,
+      "y": -930,
+      "width": 980,
+      "height": 2600,
+      "type": "group",
+      "label": "Shared physics, methods and machines",
+      "color": "3"
+    },
+    {
+      "id": "g_jepa",
+      "x": 610,
+      "y": -930,
+      "width": 1080,
+      "height": 2600,
+      "type": "group",
+      "label": "su2qc-jepa (Gauge-JEPA-P v2, active)",
+      "color": "4"
+    },
+    {
+      "id": "p_genesis",
+      "x": -4050,
+      "y": -850,
+      "width": 1000,
+      "height": 420,
+      "type": "file",
+      "file": "Packages/genesis-su2-lgt.md",
+      "color": "6"
+    },
+    {
+      "id": "genesis_code",
+      "x": -4050,
+      "y": -390,
+      "width": 1000,
+      "height": 300,
+      "type": "text",
+      "text": "### Code layers\n- Physics: [[genesis_su2.pauli]] \u00b7 [[genesis_su2.exact]] \u00b7 [[genesis_su2.su2]]\n- Encodings: [[genesis_su2.encodings]] (electric vs rishon; fuzzy blocked)\n- Backends: [[genesis_su2.backends.qiskit_backend|Qiskit]] \u00b7 [[genesis_su2.backends.cudaq_backend|CUDA-Q]] \u00b7 [[genesis_su2.backends.ibm_runtime|IBM Runtime]] \u00b7 OpenMP \u00b7 CUDA\n- QML: [[genesis_su2.qml.energy_surrogate]]"
+    },
+    {
+      "id": "genesis_gates",
+      "x": -4050,
+      "y": -50,
+      "width": 1000,
+      "height": 260,
+      "type": "text",
+      "text": "### Gates G0\u2013G7.8\n7 PASS, 3 PARTIAL, 1 COMPLETED-NEGATIVE, 1 NOT-STARTED\n\nOpen: G7.5\u2013G7.6 matched Hamiltonians, G9 tensor networks, G12 hardware dry run.\n\n[[Gates index]]"
+    },
+    {
+      "id": "r_genesis",
+      "x": -4050,
+      "y": 250,
+      "width": 1000,
+      "height": 260,
+      "type": "file",
+      "file": "Results/Result - genesis QML surrogate is a negative result.md",
+      "color": "6"
+    },
+    {
+      "id": "genesis_ladder",
+      "x": -4050,
+      "y": 550,
+      "width": 1000,
+      "height": 260,
+      "type": "text",
+      "text": "### Research ladder it proposed\n1 exact \u2192 2 statevector \u2192 3 IBM \u2192 4 QML surrogate \u2192 5 plaquette chain + MPS \u2192 **6 quarks + string breaking** \u2192 **7 2+1D dressed-site model** \u2192 8 AI calibration\n\nSteps 6\u20137 are now done by su2qc-skqd and su2qc-jepa."
+    },
+    {
+      "id": "k_kavaki",
+      "x": -4050,
+      "y": 850,
+      "width": 1000,
+      "height": 200,
+      "type": "file",
+      "file": "Papers/Kavaki and Lewis 2024.md"
+    },
+    {
+      "id": "p_skqd",
+      "x": -1650,
+      "y": -850,
+      "width": 1000,
+      "height": 420,
+      "type": "file",
+      "file": "Packages/su2qc-skqd.md",
+      "color": "5"
+    },
+    {
+      "id": "skqd_code",
+      "x": -1650,
+      "y": -390,
+      "width": 1000,
+      "height": 300,
+      "type": "text",
+      "text": "### Code layers\n- Physics: [[skqd.su2]] \u2192 [[skqd.vertex]] \u2192 [[skqd.basis]] \u2192 [[skqd.hamiltonian]] (2nd route [[skqd.fullspace]]) \u2192 [[skqd.exact]]\n- Circuits: [[skqd.circuits_ir]] \u2192 Qiskit / CUDA-Q / [[skqd.quantinuum_native|Quantinuum]]; [[skqd.codec]] decoder\n- Algorithm: [[skqd.krylov]] \u2192 [[skqd.skqd]] (Ritz + certificates) \u00b7 [[skqd.controls]] \u00b7 [[skqd.ml]]\n- Device model: [[skqd.noise]] \u00b7 [[skqd.idle]] \u00b7 [[skqd.coherence]] \u00b7 [[skqd.device_req]] \u00b7 [[skqd.hardware]]"
+    },
+    {
+      "id": "skqd_gates",
+      "x": -1650,
+      "y": -50,
+      "width": 1000,
+      "height": 260,
+      "type": "text",
+      "text": "### Gates (E, S, L, H, P, M series)\n34 PASS, 12 FAIL, 5 OPEN \u2014 counting every validation file, including dry runs and diagnostics\n\nExact physics E1\u2013E3 PASS \u00b7 hardware [[skqd gate H0_2x2]] PASS \u00b7 budget gates S2/S2D FAIL (criterion amended) \u00b7 [[skqd gate CF_traj]] PASS 7/7 \u00b7 6 Oct: [[skqd gate H0_ddrep]] (XY4 not replicated), [[skqd gate K1_2x3_fpilot]] (2x3 NO-GO) \u00b7 H1, H2, P1, M1 open \u00b7 QPU 327 s used, 273 s left"
+    },
+    {
+      "id": "r_skqd_2x2",
+      "x": -1650,
+      "y": 250,
+      "width": 1000,
+      "height": 300,
+      "type": "file",
+      "file": "Results/Result - 2x2 SKQD run on ibm_kingston.md",
+      "color": "5"
+    },
+    {
+      "id": "r_skqd_dd",
+      "x": -1650,
+      "y": 580,
+      "width": 1000,
+      "height": 200,
+      "type": "file",
+      "file": "Results/Result - client-side XY4 gain did not replicate.md",
+      "color": "5"
+    },
+    {
+      "id": "r_skqd_2x3",
+      "x": -1650,
+      "y": 810,
+      "width": 1000,
+      "height": 240,
+      "type": "file",
+      "file": "Results/Result - 2x3 needs a different device.md",
+      "color": "5"
+    },
+    {
+      "id": "r_skqd_cf",
+      "x": -1650,
+      "y": 1080,
+      "width": 1000,
+      "height": 220,
+      "type": "file",
+      "file": "Results/Result - CF_traj clean-fraction re-ruling.md",
+      "color": "5"
+    },
+    {
+      "id": "r_skqd_k1",
+      "x": -1650,
+      "y": 1330,
+      "width": 1000,
+      "height": 260,
+      "type": "file",
+      "file": "Results/Result - 2x3 on ibm_kingston is a measured NO-GO.md",
+      "color": "5"
+    },
+    {
+      "id": "plaq",
+      "x": -450,
+      "y": -850,
+      "width": 900,
+      "height": 420,
+      "type": "file",
+      "file": "Cross-package/Shared 2x2 plaquette.md",
+      "color": "3"
+    },
+    {
+      "id": "c_su2",
+      "x": -450,
+      "y": -390,
+      "width": 900,
+      "height": 170,
+      "type": "file",
+      "file": "Concepts/Physics/SU(2) lattice gauge theory.md"
+    },
+    {
+      "id": "c_gauss",
+      "x": -450,
+      "y": -200,
+      "width": 900,
+      "height": 170,
+      "type": "file",
+      "file": "Concepts/Physics/Gauss's law.md"
+    },
+    {
+      "id": "c_krylov",
+      "x": -450,
+      "y": -10,
+      "width": 900,
+      "height": 170,
+      "type": "file",
+      "file": "Concepts/Methods/Krylov subspace and Lanczos.md"
+    },
+    {
+      "id": "c_cf",
+      "x": -450,
+      "y": 180,
+      "width": 900,
+      "height": 170,
+      "type": "file",
+      "file": "Concepts/Methods/Clean-shot fraction.md"
+    },
+    {
+      "id": "h_kingston",
+      "x": -450,
+      "y": 370,
+      "width": 900,
+      "height": 150,
+      "type": "file",
+      "file": "Hardware/ibm_kingston.md",
+      "color": "2"
+    },
+    {
+      "id": "h_perl",
+      "x": -450,
+      "y": 540,
+      "width": 900,
+      "height": 150,
+      "type": "file",
+      "file": "Hardware/NERSC Perlmutter.md",
+      "color": "2"
+    },
+    {
+      "id": "w_graphify",
+      "x": -450,
+      "y": 710,
+      "width": 900,
+      "height": 150,
+      "type": "file",
+      "file": "Workflow/Graphify code graph.md"
+    },
+    {
+      "id": "w_agents",
+      "x": -450,
+      "y": 880,
+      "width": 900,
+      "height": 200,
+      "type": "file",
+      "file": "Workflow/Agent routing (planner, executor, reviewer, runner, scribe).md"
+    },
+    {
+      "id": "opps",
+      "x": -450,
+      "y": 1110,
+      "width": 900,
+      "height": 200,
+      "type": "file",
+      "file": "Cross-package/Cross-package opportunities.md",
+      "color": "1"
+    },
+    {
+      "id": "p_jepa",
+      "x": 650,
+      "y": -850,
+      "width": 1000,
+      "height": 420,
+      "type": "file",
+      "file": "Packages/su2qc-jepa.md",
+      "color": "4"
+    },
+    {
+      "id": "jepa_code",
+      "x": 650,
+      "y": -390,
+      "width": 1000,
+      "height": 300,
+      "type": "text",
+      "text": "### Code layers\n- Physics: [[su2qc_jepa.physics.plaquette]] (routes A/B) \u00b7 [[su2qc_jepa.physics.dynamics]] \u00b7 [[su2qc_jepa.physics.chain]] (12-qubit carrier)\n- Data: [[su2qc_jepa.data.trajectories]] \u00b7 [[su2qc_jepa.data.records]]\n- Model: [[su2qc_jepa.models.jepa]] (encoder \u2192 16-d latent \u2192 GRU predictor, SIGReg) \u00b7 [[su2qc_jepa.models.train]]\n- Twin/hardware: [[su2qc_jepa.twin.run]] \u00b7 [[su2qc_jepa.hardware.ibm]] \u00b7 Compute: [[su2qc_jepa.localrun]] \u00b7 [[su2qc_jepa.jobs]]"
+    },
+    {
+      "id": "jepa_gates",
+      "x": 650,
+      "y": -50,
+      "width": 1000,
+      "height": 260,
+      "type": "text",
+      "text": "### Gates J0\u2013J4\n2 NOT-RUN, 1 PASS, 1 FAIL, 1 OPTIONAL\n\n[[jepa gate J0]] PASS 9/9 \u00b7 [[jepa gate J1]] FAIL for all 9 finished runs (semigroup row), jobs 013\u2013014 queued \u00b7 J2 forecasting, J3 hardware error signal not run \u00b7 J4 optional\n\nPlan: 5 Oct \u2013 29 Nov 2026"
+    },
+    {
+      "id": "r_j0",
+      "x": 650,
+      "y": 250,
+      "width": 1000,
+      "height": 240,
+      "type": "file",
+      "file": "Results/Result - J0 data gate passed.md",
+      "color": "4"
+    },
+    {
+      "id": "r_j1",
+      "x": 650,
+      "y": 520,
+      "width": 1000,
+      "height": 200,
+      "type": "file",
+      "file": "Results/Result - J1 energy information ceiling.md",
+      "color": "4"
+    },
+    {
+      "id": "c_jepa",
+      "x": 650,
+      "y": 750,
+      "width": 1000,
+      "height": 240,
+      "type": "file",
+      "file": "Concepts/Methods/JEPA world model.md"
+    },
+    {
+      "id": "c_chain",
+      "x": 650,
+      "y": 1020,
+      "width": 1000,
+      "height": 240,
+      "type": "file",
+      "file": "Concepts/Methods/Krylov-chain carrier.md"
+    },
+    {
+      "id": "r_j1_ladder",
+      "x": 650,
+      "y": 1290,
+      "width": 1000,
+      "height": 300,
+      "type": "file",
+      "file": "Results/Result - J1 ladder fails on the semigroup row.md",
+      "color": "4"
+    },
+    {
+      "id": "p_su2zx",
+      "x": -2850,
+      "y": -850,
+      "width": 1000,
+      "height": 420,
+      "type": "file",
+      "file": "Packages/SU2ZX.md",
+      "color": "2"
+    },
+    {
+      "id": "su2zx_code",
+      "x": -2850,
+      "y": -390,
+      "width": 1000,
+      "height": 300,
+      "type": "text",
+      "text": "### Code layers\n- v0.4.0 chain study: [[su2zx.core]] \u2192 [[su2zx.compiler_study]] \u00b7 [[su2zx.robust_study]] \u00b7 [[su2zx.scaling_study]] (MPS) \u00b7 [[su2zx.qpu]]\n- v0.5.0 plaquette + quarks: [[su2qc.ham.route_spinnet]] vs [[su2qc.ham.route_gausskernel]] \u2192 [[su2qc.dynamics.engine]]\n- Circuits: [[su2qc.encodings.l12]] \u2192 [[su2qc.circuits.strang_l12]] (\u22482 156 2q gates per step) \u00b7 twin [[su2qc.twin.twin]]"
+    },
+    {
+      "id": "su2zx_gates",
+      "x": -2850,
+      "y": -50,
+      "width": 1000,
+      "height": 260,
+      "type": "text",
+      "text": "### Gates\n5 PASS, 5 NOT-RUN, 3 BLOCKED, 1 PARTIAL\n\nSection 8: [[su2zx gate S8-G1]] PASS (82 states, two routes) \u00b7 G4 never run\nGI-cost campaign: [[su2zx gate C1]] PASS \u00b7 [[su2zx gate C0]] PARTIAL \u00b7 C2\u2013C8 not started"
+    },
+    {
+      "id": "r_su2zx_v040",
+      "x": -2850,
+      "y": 250,
+      "width": 1000,
+      "height": 300,
+      "type": "file",
+      "file": "Results/Result - SU2ZX v0.4.0 compiler and MPS study.md",
+      "color": "2"
+    },
+    {
+      "id": "r_su2zx_s8",
+      "x": -2850,
+      "y": 580,
+      "width": 1000,
+      "height": 300,
+      "type": "file",
+      "file": "Results/Result - SU2ZX section 8 verified plaquette.md",
+      "color": "2"
+    },
+    {
+      "id": "r_su2zx_c0",
+      "x": -2850,
+      "y": 910,
+      "width": 1000,
+      "height": 300,
+      "type": "file",
+      "file": "Results/Result - GI-cost campaign stalled at C0.md",
+      "color": "2"
+    },
+    {
+      "id": "lessons",
+      "x": 1850,
+      "y": -1450,
+      "width": 700,
+      "height": 360,
+      "type": "file",
+      "file": "Cross-package/Lessons that travelled.md",
+      "color": "1"
+    },
+    {
+      "id": "g_trotter",
+      "x": 1810,
+      "y": -930,
+      "width": 1080,
+      "height": 2600,
+      "type": "group",
+      "label": "su2qc-trotter + su2qc-paulo-code (Sept 2026, done)",
+      "color": "1"
+    },
+    {
+      "id": "p_trotter",
+      "x": 1850,
+      "y": -850,
+      "width": 1000,
+      "height": 420,
+      "type": "file",
+      "file": "Packages/su2qc-trotter.md",
+      "color": "1"
+    },
+    {
+      "id": "trotter_code",
+      "x": 1850,
+      "y": -390,
+      "width": 1000,
+      "height": 300,
+      "type": "text",
+      "text": "### Code layers\n- Physics: [[su2trotter.physics]] (plaquette operator, Eqs. 25-28)\n- Designs: [[su2trotter.baseline]] (Eq. 39, 34 qubits) vs [[su2trotter.lean]] (22 qubits)\n- Compile + count: [[su2trotter.synth]] \u2192 [[su2trotter.cudaq_backend]] \u00b7 [[su2trotter.pipeline]]\n- Checks: [[su2trotter.sim]] \u00b7 [[su2trotter.analysis]] \u00b7 [[su2trotter.compare]]"
+    },
+    {
+      "id": "trotter_gates",
+      "x": 1850,
+      "y": -50,
+      "width": 1000,
+      "height": 260,
+      "type": "text",
+      "text": "### Perlmutter CI jobs\n7 PASS\n\n[[trotter gate R1]] resources \u00b7 [[trotter gate V1]] GPU verification \u00b7 [[trotter gate B1]] 60-step benchmark \u00b7 [[trotter gate G22]] / [[trotter gate G34]] side-by-side tests (G34 on 32 A100s)"
+    },
+    {
+      "id": "r_trotter_lean",
+      "x": 1850,
+      "y": 250,
+      "width": 1000,
+      "height": 300,
+      "type": "file",
+      "file": "Results/Result - lean 22-qubit plaquette Trotter step.md",
+      "color": "1"
+    },
+    {
+      "id": "r_trotter_gpu",
+      "x": 1850,
+      "y": 580,
+      "width": 1000,
+      "height": 260,
+      "type": "file",
+      "file": "Results/Result - lean and reference circuits agree on GPUs.md",
+      "color": "1"
+    },
+    {
+      "id": "p_paulo",
+      "x": 1850,
+      "y": 870,
+      "width": 1000,
+      "height": 300,
+      "type": "file",
+      "file": "Packages/su2qc-paulo-code.md",
+      "color": "1"
+    },
+    {
+      "id": "c_cliffordt",
+      "x": 1850,
+      "y": 1200,
+      "width": 1000,
+      "height": 150,
+      "type": "file",
+      "file": "Concepts/Methods/Clifford+T and T-count.md"
+    },
+    {
+      "id": "g_qca",
+      "x": 3010,
+      "y": -930,
+      "width": 1080,
+      "height": 2600,
+      "type": "group",
+      "label": "su2qc-qcadvantage (Oct 2026, cloud phase done)",
+      "color": "5"
+    },
+    {
+      "id": "p_qca",
+      "x": 3050,
+      "y": -850,
+      "width": 1000,
+      "height": 420,
+      "type": "file",
+      "file": "Packages/su2qc-qcadvantage.md",
+      "color": "5"
+    },
+    {
+      "id": "qca_code",
+      "x": 3050,
+      "y": -390,
+      "width": 1000,
+      "height": 300,
+      "type": "text",
+      "text": "### Code layers\n- Model: [[su2torus.lattice]] (honeycomb torus) \u2192 [[su2torus.hamiltonian]]\n- Exact: [[su2torus.exact]] \u00b7 [[su2torus.observables]] \u00b7 [[su2torus.thermal]] (typicality anchors)\n- Circuits + noise: [[su2torus.trotter]] \u2192 [[su2torus.noise]] (echo, ZNE)\n- Classical frontier: [[su2torus.mps]] (quimb MPS)"
+    },
+    {
+      "id": "qca_gates",
+      "x": 3050,
+      "y": -50,
+      "width": 1000,
+      "height": 260,
+      "type": "text",
+      "text": "### Milestones M1-M6 (locked acceptance tests)\n6 PASS\n\nFull suite 167 passed; tag v0.1-pre-cluster. Stopped before GPU-cluster work; 4 decisions wait: [[Decision - qcadvantage open questions before the cluster]]"
+    },
+    {
+      "id": "r_qca_therm",
+      "x": 3050,
+      "y": 250,
+      "width": 1000,
+      "height": 260,
+      "type": "file",
+      "file": "Results/Result - qcadvantage thermalization and the beta=0 states.md",
+      "color": "5"
+    },
+    {
+      "id": "r_qca_noise",
+      "x": 3050,
+      "y": 540,
+      "width": 1000,
+      "height": 260,
+      "type": "file",
+      "file": "Results/Result - qcadvantage noise mitigation at N=12.md",
+      "color": "5"
+    },
+    {
+      "id": "r_qca_mps",
+      "x": 3050,
+      "y": 830,
+      "width": 1000,
+      "height": 300,
+      "type": "file",
+      "file": "Results/Result - qcadvantage MPS frontier at N=48.md",
+      "color": "5"
+    },
+    {
+      "id": "c_1qpp",
+      "x": 3050,
+      "y": 1160,
+      "width": 1000,
+      "height": 190,
+      "type": "file",
+      "file": "Concepts/Physics/One-qubit-per-plaquette SU(2) model.md"
+    },
+    {
+      "id": "lineage",
+      "x": -2850,
+      "y": -1300,
+      "width": 1000,
+      "height": 300,
+      "type": "file",
+      "file": "Cross-package/Package lineage.md",
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "proposal",
+      "fromSide": "left",
+      "toNode": "p_genesis",
+      "toSide": "top",
+      "label": "starter (Aug)"
+    },
+    {
+      "id": "e1",
+      "fromNode": "proposal",
+      "fromSide": "left",
+      "toNode": "p_su2zx",
+      "toSide": "top",
+      "label": "Sept campaign"
+    },
+    {
+      "id": "e2",
+      "fromNode": "proposal",
+      "fromSide": "bottom",
+      "toNode": "p_skqd",
+      "toSide": "top",
+      "label": "Project 2"
+    },
+    {
+      "id": "e3",
+      "fromNode": "proposal",
+      "fromSide": "bottom",
+      "toNode": "p_jepa",
+      "toSide": "top",
+      "label": "AI world model"
+    },
+    {
+      "id": "e4",
+      "fromNode": "p_genesis",
+      "fromSide": "right",
+      "toNode": "p_su2zx",
+      "toSide": "left",
+      "label": "led to (step 5)"
+    },
+    {
+      "id": "e5",
+      "fromNode": "r_su2zx_s8",
+      "fromSide": "right",
+      "toNode": "plaq",
+      "toSide": "left",
+      "label": "verified first",
+      "color": "3"
+    },
+    {
+      "id": "e6",
+      "fromNode": "p_su2zx",
+      "fromSide": "top",
+      "toNode": "p_jepa",
+      "toSide": "top",
+      "label": "cross-check 7e-14",
+      "color": "4"
+    },
+    {
+      "id": "e7",
+      "fromNode": "r_su2zx_c0",
+      "fromSide": "right",
+      "toNode": "lessons",
+      "toSide": "left",
+      "label": "twin-seed lesson"
+    },
+    {
+      "id": "e8",
+      "fromNode": "p_su2zx",
+      "fromSide": "right",
+      "toNode": "p_skqd",
+      "toSide": "left",
+      "label": "plaquette + quarks"
+    },
+    {
+      "id": "e9",
+      "fromNode": "p_skqd",
+      "fromSide": "right",
+      "toNode": "plaq",
+      "toSide": "left",
+      "label": "same system",
+      "color": "3"
+    },
+    {
+      "id": "e10",
+      "fromNode": "p_jepa",
+      "fromSide": "left",
+      "toNode": "plaq",
+      "toSide": "right",
+      "label": "same system",
+      "color": "3"
+    },
+    {
+      "id": "e11",
+      "fromNode": "r_skqd_2x2",
+      "fromSide": "right",
+      "toNode": "h_kingston",
+      "toSide": "left",
+      "label": "run on",
+      "color": "2"
+    },
+    {
+      "id": "e12",
+      "fromNode": "r_skqd_dd",
+      "fromSide": "right",
+      "toNode": "c_cf",
+      "toSide": "left",
+      "label": "2.8x on 2 Oct, 0.9x on 6 Oct"
+    },
+    {
+      "id": "e13",
+      "fromNode": "r_skqd_cf",
+      "fromSide": "right",
+      "toNode": "c_cf",
+      "toSide": "left",
+      "label": "re-ruled statistic"
+    },
+    {
+      "id": "e14",
+      "fromNode": "jepa_gates",
+      "fromSide": "left",
+      "toNode": "h_perl",
+      "toSide": "right",
+      "label": "J1 jobs",
+      "color": "2"
+    },
+    {
+      "id": "e15",
+      "fromNode": "skqd_gates",
+      "fromSide": "right",
+      "toNode": "h_perl",
+      "toSide": "left",
+      "label": "CI tokens",
+      "color": "2"
+    },
+    {
+      "id": "e16",
+      "fromNode": "c_chain",
+      "fromSide": "left",
+      "toNode": "c_krylov",
+      "toSide": "right",
+      "label": "Lanczos K=12"
+    },
+    {
+      "id": "e17",
+      "fromNode": "skqd_code",
+      "fromSide": "right",
+      "toNode": "c_krylov",
+      "toSide": "left",
+      "label": "Krylov states"
+    },
+    {
+      "id": "e18",
+      "fromNode": "r_skqd_dd",
+      "fromSide": "right",
+      "toNode": "jepa_gates",
+      "toSide": "left",
+      "label": "day-to-day drift: lesson for J3",
+      "color": "1"
+    },
+    {
+      "id": "e19",
+      "fromNode": "genesis_ladder",
+      "fromSide": "right",
+      "toNode": "p_su2zx",
+      "toSide": "left",
+      "label": "steps 5-7",
+      "color": "6"
+    },
+    {
+      "id": "e20",
+      "fromNode": "plaq",
+      "fromSide": "bottom",
+      "toNode": "c_su2",
+      "toSide": "top"
+    },
+    {
+      "id": "e21",
+      "fromNode": "c_su2",
+      "fromSide": "bottom",
+      "toNode": "c_gauss",
+      "toSide": "top"
+    },
+    {
+      "id": "e22",
+      "fromNode": "k_kavaki",
+      "fromSide": "right",
+      "toNode": "p_genesis",
+      "toSide": "right",
+      "label": "Eq. 1"
+    },
+    {
+      "id": "e23",
+      "fromNode": "r_skqd_k1",
+      "fromSide": "left",
+      "toNode": "r_skqd_2x3",
+      "toSide": "left",
+      "label": "measured",
+      "color": "5"
+    },
+    {
+      "id": "e24",
+      "fromNode": "r_j1",
+      "fromSide": "left",
+      "toNode": "r_j1_ladder",
+      "toSide": "left",
+      "label": "energy rows pass"
+    },
+    {
+      "id": "e25",
+      "fromNode": "p_paulo",
+      "fromSide": "right",
+      "toNode": "p_trotter",
+      "toSide": "right",
+      "label": "Eq. 39 baseline",
+      "color": "1"
+    },
+    {
+      "id": "e26",
+      "fromNode": "proposal",
+      "fromSide": "right",
+      "toNode": "p_trotter",
+      "toSide": "top",
+      "label": "fault-tolerant cost"
+    },
+    {
+      "id": "e27",
+      "fromNode": "proposal",
+      "fromSide": "right",
+      "toNode": "p_qca",
+      "toSide": "top",
+      "label": "advantage path"
+    },
+    {
+      "id": "e28",
+      "fromNode": "skqd_gates",
+      "fromSide": "bottom",
+      "toNode": "trotter_gates",
+      "toSide": "bottom",
+      "label": "same CI design",
+      "color": "2"
+    },
+    {
+      "id": "e29",
+      "fromNode": "trotter_gates",
+      "fromSide": "left",
+      "toNode": "h_perl",
+      "toSide": "right",
+      "label": "GPU jobs",
+      "color": "2"
+    },
+    {
+      "id": "e30",
+      "fromNode": "r_qca_mps",
+      "fromSide": "bottom",
+      "toNode": "r_su2zx_v040",
+      "toSide": "bottom",
+      "label": "MPS: chain vs 2D torus"
+    },
+    {
+      "id": "e31",
+      "fromNode": "c_1qpp",
+      "fromSide": "left",
+      "toNode": "c_su2",
+      "toSide": "right",
+      "label": "minimal truncation"
+    }
+  ]
+}

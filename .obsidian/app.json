@@ -1,0 +1,8 @@
+{
+  "userIgnoreFilters": [
+    "README.md",
+    "_export/",
+    "_tools/"
+  ],
+  "alwaysUpdateLinks": true
+}
